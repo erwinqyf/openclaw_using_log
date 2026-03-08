@@ -1,0 +1,5 @@
+# events.yml - 提醒事件存储
+# 时区：Asia/Shanghai
+# 默认提醒偏移：24 小时 / 1 小时 / 10 分钟
+
+events: []
