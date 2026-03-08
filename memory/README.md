@@ -44,7 +44,7 @@ memory/
 
 | 找什么 | 去哪里 |
 |--------|--------|
-| 今天发生了什么 | `memory/YYYY-MM-DD.md` |
+| 过去发生了什么 | `memory/YYYY-MM-DD.md` |
 | 我掌握了什么技能 | `learning/learning-opportunities.md` |
 | 踩过什么坑 | `lessons.md` |
 | 项目进展 | `projects.md` 或 `projects/{name}/status.md` |
