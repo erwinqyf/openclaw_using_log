@@ -8,8 +8,9 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-4. If in MAIN SESSION: Also read `MEMORY.md`
+3. Read `CLAW-IDENTITY.md` — 快速掌握已学技能和知识
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+5. If in MAIN SESSION: Also read `MEMORY.md`
 
 Don't ask permission. Just do it.
 
