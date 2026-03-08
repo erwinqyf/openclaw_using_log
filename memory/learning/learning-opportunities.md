@@ -130,10 +130,23 @@ _(由心跳检查自动填充)_
 **扫描次数**: 4 次（10:00、12:00、14:00、18:45）  
 **发现技能**: 35+ 个新技能  
 **高价值技能 (≥70分)**: 8 个  
-**已安装**: 2 个（wechat-article-publisher, restart-continuity）  
-**待评估**: 6 个
+**已安装**: 3 个（wechat-article-publisher, restart-continuity, elite-longterm-memory）  
+**待评估**: 5 个
 
-**累计进度**: 30/100（30%）
+**累计进度**: 32/100（32%）
+
+---
+
+## 安装记录
+
+| 时间 | 技能 | 评分 | 状态 |
+|------|------|------|------|
+| 10:28 | wechat-article-publisher | 72 | ✅ 已安装 |
+| 10:28 | restart-continuity | 71 | ✅ 已安装 |
+| 19:01 | elite-longterm-memory | 71 | ✅ 已安装 |
+| 19:01 | browser-automation | 72 | ⚠️ 安全警告，暂缓 |
+| 19:01 | notion | 70 | ⏳ 待安装 |
+| 19:01 | docker-essentials | 70 | ⏳ 待安装 |
 
 ---
 
