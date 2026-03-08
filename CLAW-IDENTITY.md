@@ -124,18 +124,25 @@ workspace/
 ├── AGENTS.md               # 工作规则
 ├── HEARTBEAT.md            # 心跳检查清单
 ├── memory/
-│   ├── YYYY-MM-DD.md      # 每日记录
-│   ├── learning-opportunities.md  # 学习追踪
-│   └── projects.md         # 项目状态
-├── agents/
-│   ├── morning-brief/      # 晨间简报 Agent
-│   ├── industry-monitor/   # 行业监控 Agent
-│   ├── health-check/       # 健康检查 Agent
-│   ├── skill-learner/      # 技能学习 Agent
-│   └── daily-news/         # 新闻汇总 Agent
+│   ├── README.md           # 目录结构说明
+│   ├── YYYY-MM-DD.md       # 每日记录
+│   ├── lessons.md          # 踩坑记录
+│   ├── projects.md         # 项目总览
+│   ├── learning/           # 学习相关
+│   │   ├── learning-opportunities.md  # 技能追踪
+│   │   ├── plans/          # 学习计划
+│   │   ├── logs/           # 学习日志
+│   │   └── summaries/      # 学习总结
+│   ├── system/             # 系统配置
+│   │   ├── INDEX.md        # 关键词索引
+│   │   ├── cron-department-integration.md
+│   │   └── department-report.md
+│   └── projects/           # 项目状态
+│       └── {name}/
+│           └── status.md
+├── agents/                 # 子代理配置
 ├── skills/                 # 已安装技能（30个）
-└── scripts/
-    └── evening-sync.sh     # 晚间同步脚本
+└── scripts/                # 脚本
 ```
 
 ---
