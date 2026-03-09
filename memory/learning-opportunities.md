@@ -1,7 +1,7 @@
 # 技能学习机会追踪
 
 > 自动扫描 ClawHub/GitHub 发现的潜在有价值技能
-> 最后更新: 2026-03-09 08:01
+> 最后更新: 2026-03-09 10:01
 
 ---
 
@@ -115,8 +115,7 @@ weather-data-fetcher, wechat-article-publisher, weather, youtube-transcript (1.0
 bluebubbles, camsnap, canvas, clawhub, coding-agent, discord, eightctl,
 gemini, gh-issues, gifgrep, github, gog, goplaces, healthcheck, himalaya,
 imsg, mcporter, model-usage, nano-banana-pro, nano-pdf, notion, obsidian,
-openai-image-gen, openai-whisper, openai-whisper-api, openhue, oracle,
-ordercli, peekaboo, sag, session-logs, sherpa-onnx-tts, skill-creator,
+openai-image-gen, openai-whisper, openai-whisper-api, skill-creator,
 slack, songsee, sonoscli, spotify-player, summarize, things-mac, tmux,
 trello, video-frames, voice-call, wacli, weather, xurl
 ```
@@ -238,3 +237,17 @@ trello, video-frames, voice-call, wacli, weather, xurl
 - 本地技能: 54 个
 - 系统技能: 52 个
 - ClawHub 热门: 已扫描
+
+## 扫描记录 2026-03-09 10:00
+
+- 本地技能: 54 个
+- 系统技能: 52 个
+- ClawHub 热门: 已扫描
+
+## 扫描记录 2026-03-09 10:01
+
+- 本地技能: 55 个
+- 系统技能: 52 个
+- ClawHub 已安装: 12 个
+- ClawHub 热门搜索: browser(10), mcp(9), codex(10), avatar(10), devops(10), notion(10), security(10), telegram(10), video(10)
+- 高价值候选: 20+ 个
