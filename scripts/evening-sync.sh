@@ -152,15 +152,32 @@ _待 Claw 填充_
 EOF
 fi
 
-# 6. Git commit 到 GitHub
+# 6. Git commit 工作区变更（本地）
 cd "$WORKSPACE"
 if git status --porcelain | grep -q .; then
     echo "[$TIMESTAMP] 📦 检测到变更，准备 commit..."
     git add -A
     git commit -m "🌙 晚间同步 $DATE - auto"
-    git push origin master 2>/dev/null && echo "[$TIMESTAMP] ✅ Git push 成功" || echo "[$TIMESTAMP] ⚠️ Git push 需要认证"
+    echo "[$TIMESTAMP] ✅ 本地 commit 完成"
 else
     echo "[$TIMESTAMP] ✓ 无变更，跳过 commit"
+fi
+
+# 7. 推送 daily_log.md 到 GitHub（仅日记文件）
+echo "[$TIMESTAMP] 📝 检查是否需要更新 GitHub 日记..."
+DAILY_LOG_GITHUB="$WORKSPACE/daily_log.md"
+if [ -f "$DAILY_LOG_GITHUB" ]; then
+    # 确保文件在 git 跟踪中
+    git add "$DAILY_LOG_GITHUB" 2>/dev/null || true
+    # 如果有变更则提交并推送
+    if ! git diff --cached --quiet "$DAILY_LOG_GITHUB" 2>/dev/null; then
+        git commit -m "📝 更新日记 $DATE" -- "$DAILY_LOG_GITHUB"
+        git push origin master 2>/dev/null && echo "[$TIMESTAMP] ✅ GitHub 日记已更新" || echo "[$TIMESTAMP] ⚠️ GitHub push 失败"
+    else
+        echo "[$TIMESTAMP] ✓ 日记无变更"
+    fi
+else
+    echo "[$TIMESTAMP] ℹ️ daily_log.md 不存在，跳过 GitHub 同步"
 fi
 
 echo "[$TIMESTAMP] ✨ 晚间同步完成"
