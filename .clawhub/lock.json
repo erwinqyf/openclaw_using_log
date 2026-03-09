@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "searxng": {
+      "version": "1.0.3",
+      "installedAt": 1772692921716
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1772701207406
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1772701213428
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1772701268218
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1772701278822
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1772701443637
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1772798112839
+    },
+    "youtube-transcript": {
+      "version": "1.0.1",
+      "installedAt": 1772799693491
+    },
+    "reminder": {
+      "version": "0.1.1",
+      "installedAt": 1772799976108
+    },
+    "mcp-lark": {
+      "version": "1.0.0",
+      "installedAt": 1772800442149
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1772800570228
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772805599920
+    }
+  }
+}
