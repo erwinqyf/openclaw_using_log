@@ -1,7 +1,7 @@
 # 技能学习机会追踪
 
 > 自动扫描 ClawHub/GitHub 发现的潜在有价值技能
-> 最后更新: 2026-03-10 10:01
+> 最后更新: 2026-03-10 12:05
 
 ---
 
@@ -9,253 +9,245 @@
 
 ### 1. AI Meeting Notes ⭐⭐⭐⭐⭐
 - **技能名**: ai-meeting-notes
-- **评分**: 3.706 (↑ 较上次 3.573)
+- **评分**: 3.727 (↑ 较上次 3.706)
 - **描述**: 杂乱笔记→清晰行动项。粘贴会议记录、转录或文本，获取摘要、带负责人和截止日期的行动项。自动保存、可搜索、集成待办追踪
 - **价值**: ⭐⭐⭐⭐⭐ 会议自动化处理，与 ai-daily-briefing 互补
 - **状态**: 未安装
 - **建议**: 无需机器人、订阅或设置，即用型会议助手
 - **安装**: `clawhub install ai-meeting-notes`
 
-### 2. AI Notes of Video ⭐⭐⭐⭐⭐
-- **技能名**: ai-notes-of-video
-- **评分**: 3.723 (↑ 较上次 3.506)
-- **描述**: 通过视频URL生成文档、大纲和图文AI笔记，使用百度视频分析和笔记提取API
-- **价值**: ⭐⭐⭐⭐⭐ 与现有 video-frames 形成完整视频处理矩阵
-- **状态**: 未安装
-- **建议**: 适合学习、会议记录、内容分析场景
-- **安装**: `clawhub install ai-notes-of-video`
+### 2. Elite Longterm Memory ⭐⭐⭐⭐⭐
+- **技能名**: elite-longterm-memory
+- **评分**: 3.744 (↑ 较上次 3.222)
+- **描述**: 高级长期记忆系统，提供比现有 memoryai 更强大的记忆能力
+- **价值**: ⭐⭐⭐⭐⭐ 评分最高记忆技能，超越现有 agent-brain
+- **状态**: 未安装（已有 agent-brain、elite-longterm-memory 本地版）
+- **建议**: 评估与现有记忆系统的差异，考虑升级
+- **安装**: `clawhub install elite-longterm-memory`
 
-### 3. Filesystem MCP ⭐⭐⭐⭐⭐
-- **技能名**: filesystem-mcp
-- **评分**: 3.694 (↑ 较上次 3.509)
-- **描述**: 安全、沙盒化的文件系统访问，支持列出、读取、写入、创建、移动、删除、搜索文件和目录
-- **价值**: ⭐⭐⭐⭐⭐ 与现有 mcp-lark 形成 MCP 协议矩阵
-- **状态**: 未安装（已有 mcp-lark 1.0.0）
-- **建议**: 增强文件操作能力，标准化文件系统访问
-- **安装**: `clawhub install filesystem-mcp`
+### 3. Agent Browser ⭐⭐⭐⭐⭐
+- **技能名**: agent-browser
+- **评分**: 3.801 (↑ 较上次 3.393)
+- **描述**: 高性能浏览器自动化，适用于重度爬取、多标签管理和精确DOM提取
+- **价值**: ⭐⭐⭐⭐⭐ 评分大幅提升，浏览器自动化首选
+- **状态**: 已安装 0.2.0（可升级）
+- **建议**: 当前版本较旧，建议升级获取最新功能
+- **安装**: `clawhub update agent-browser`
 
 ### 4. Codex Orchestrator ⭐⭐⭐⭐⭐
 - **技能名**: codex-orchestrator
-- **评分**: 3.721 (↑ 较上次 3.542)
+- **评分**: 3.543 (↑ 较上次 3.721)
 - **描述**: 监控、控制和编排后台 Codex 会话。跟踪进度、处理中断、确保长时间编码任务完成
-- **价值**: ⭐⭐⭐⭐⭐ 评分大幅提升，Codex 生态核心
+- **价值**: ⭐⭐⭐⭐⭐ Codex 生态核心
 - **状态**: 未安装
 - **建议**: 适合复杂多代理编码任务协调
 - **安装**: `clawhub install codex-orchestrator`
 
 ### 5. Video Subtitles ⭐⭐⭐⭐⭐
 - **技能名**: video-subtitles
-- **评分**: 3.705 (↑ 较上次 3.489)
+- **评分**: 3.490 (较上次 3.705 略有下降)
 - **描述**: 从视频/音频生成SRT字幕，支持翻译。转录希伯来语(ivrit.ai)和英语(whisper)，多语言翻译，烧录字幕到视频
-- **价值**: ⭐⭐⭐⭐⭐ 评分大幅提升，与现有 video-frames 形成视频处理矩阵
+- **价值**: ⭐⭐⭐⭐⭐ 与现有 video-frames 形成视频处理矩阵
 - **状态**: 未安装
 - **建议**: 适合多媒体内容创作、社交媒体字幕
 - **安装**: `clawhub install video-subtitles`
 
-### 6. Fast Browser Use ⭐⭐⭐⭐
+### 6. Filesystem MCP ⭐⭐⭐⭐
+- **技能名**: filesystem-mcp
+- **评分**: 3.505 (较上次 3.694 略有下降)
+- **描述**: 安全、沙盒化的文件系统访问，支持列出、读取、写入、创建、移动、删除、搜索文件和目录
+- **价值**: ⭐⭐⭐⭐ 与现有 mcp-lark 形成 MCP 协议矩阵
+- **状态**: 未安装（已有 mcp-lark 1.0.0）
+- **建议**: 增强文件操作能力，标准化文件系统访问
+- **安装**: `clawhub install filesystem-mcp`
+
+### 7. Fast Browser Use ⭐⭐⭐⭐
 - **技能名**: fast-browser-use
-- **评分**: 3.248 (fast-browser-use-1-0-5 评分 3.393)
+- **评分**: 3.623 (↑ 较上次 3.248)
 - **描述**: 高性能浏览器自动化，适用于重度爬取、多标签管理和精确DOM提取。支持高级状态管理（cookies/local storage）
-- **价值**: ⭐⭐⭐⭐ 可作为 agent-browser 的性能优化候选
+- **价值**: ⭐⭐⭐⭐ 评分大幅提升，可作为 agent-browser 的备选
 - **状态**: 未安装（已有 agent-browser 0.2.0）
-- **建议**: 评估性能差异后决定是否升级替换
+- **建议**: 评估性能差异后决定是否替换
 - **安装**: `clawhub install fast-browser-use`
 
-### 7. Agent Scorecard ⭐⭐⭐⭐
-- **技能名**: agent-scorecard
-- **评分**: 3.261 (较上次 3.199 稳定)
-- **描述**: AI 代理输出的可配置质量评估。定义标准、运行评估、跟踪质量。无需 LLM-as-judge，基于模式
-- **价值**: ⭐⭐⭐⭐ 代理质量监控和评估
-- **状态**: 未安装
-- **建议**: 适合生产环境代理质量保障
-- **安装**: `clawhub install agent-scorecard`
-
-### 8. MemoryAI ⭐⭐⭐⭐
-- **技能名**: memoryai
-- **评分**: 3.222 (较上次 3.221 稳定)
-- **描述**: AI 代理的持久长期记忆。存储、回忆、推理，零上下文丢失无缝切换会话
-- **价值**: ⭐⭐⭐⭐ 与现有 agent-brain、elite-longterm-memory 形成互补
-- **状态**: 未安装
-- **建议**: 评估与现有记忆技能的差异
-- **安装**: `clawhub install memoryai`
-
-### 9. Xiaohongshu MCP ⭐⭐⭐
+### 8. Xiaohongshu MCP ⭐⭐⭐⭐
 - **技能名**: xiaohongshu-mcp
-- **评分**: 2.633 (xiaohongshu-mcp-skill 评分 3.694)
+- **评分**: 3.616 (↑ 较上次 2.633)
 - **描述**: 小红书自动化内容运营：发布图文视频、搜索笔记趋势、分析帖子评论、管理用户资料
-- **价值**: ⭐⭐⭐ 社交媒体自动化
+- **价值**: ⭐⭐⭐⭐ 评分大幅提升，社交媒体自动化
 - **状态**: 未安装
 - **建议**: 适合小红书内容创作者
 - **安装**: `clawhub install xiaohongshu-mcp`
 
-### 10. Telegram Bot ⭐⭐⭐
+### 9. Telegram Bot ⭐⭐⭐⭐
 - **技能名**: telegram-bot
-- **评分**: 3.719 (telegram-bot-builder 3.594, telegram-bot-factory 3.539)
+- **评分**: 3.528 (较上次 3.719 略有下降)
 - **描述**: 通过 Telegram Bot API 构建和管理 Telegram 机器人。创建机器人、发送消息、处理 webhook、管理群组和频道
-- **价值**: ⭐⭐⭐ 作为 Feishu 的备选消息平台
+- **价值**: ⭐⭐⭐⭐ 作为 Feishu 的备选消息平台
 - **状态**: 未安装
 - **建议**: 适合国际化场景
 - **安装**: `clawhub install telegram-bot`
 
-### 11. HeyGen Avatar Lite ⭐⭐⭐
+### 10. HeyGen Avatar Lite ⭐⭐⭐
 - **技能名**: heygen-avatar-lite
-- **评分**: 3.727 (↑ 较上次 3.490)
+- **评分**: 3.518 (较上次 3.727 略有下降)
 - **描述**: 使用 HeyGen API 创建AI数字人视频，免费入门指南
 - **价值**: ⭐⭐⭐ 补充现有 ai-avatar-generation 的静态头像能力
 - **状态**: 未安装（已有 ai-avatar-generation）
 - **建议**: 适合视频内容创作
 - **安装**: `clawhub install heygen-avatar-lite`
 
-### 12. Codex CLI Task ⭐⭐⭐⭐
-- **技能名**: codex-cli-task
-- **评分**: 2.137
-- **描述**: 在后台异步启动 OpenAI Codex CLI，自动推送到 Telegram/WhatsApp。用于编码、重构、代码库研究、文件生成
-- **价值**: ⭐⭐⭐⭐ Codex 工作流增强
+### 11. Agent Scorecard ⭐⭐⭐
+- **技能名**: agent-scorecard
+- **评分**: 3.209 (较上次 3.261 略有下降)
+- **描述**: AI 代理输出的可配置质量评估。定义标准、运行评估、跟踪质量。无需 LLM-as-judge，基于模式
+- **价值**: ⭐⭐⭐ 代理质量监控和评估
 - **状态**: 未安装
-- **建议**: 与 codex-orchestrator 形成完整 Codex 生态
-- **安装**: `clawhub install codex-cli-task`
+- **建议**: 适合生产环境代理质量保障
+- **安装**: `clawhub install agent-scorecard`
 
 ---
 
 ## 🆕 最新发现技能（explore 扫描）
 
-### 13. Web Search EX Skill ⭐⭐⭐⭐
-- **技能名**: web-search-ex-skill
-- **版本**: v1.3.0 | 更新: just now
-- **描述**: 通用网络搜索技能，支持多引擎搜索（百度、必应、DuckDuckGo），无需API密钥即可获取实时信息
-- **价值**: ⭐⭐⭐⭐ 多引擎搜索，无需API密钥
+### 12. Auto Skill Hunter ⭐⭐⭐⭐
+- **技能名**: auto-skill-hunter
+- **版本**: v1.0.3 | 更新: just now
+- **描述**: 自动发现并安装高价值技能，与本任务功能类似但自动化
+- **价值**: ⭐⭐⭐⭐ 自动化技能发现
+- **安装**: `clawhub install auto-skill-hunter`
 
-### 14. Python Code Test ⭐⭐⭐
-- **技能名**: python-code-test
-- **版本**: v1.0.3 | 更新: 1m ago
-- **描述**: 代码功能测试skill，根据用户需求搜索代码、生成测试用例、执行测试并修复问题
-- **价值**: ⭐⭐⭐ 自动化测试
+### 13. Feishu Calendar ⭐⭐⭐⭐
+- **技能名**: feishu-calendar
+- **版本**: v1.0.0 | 更新: just now
+- **描述**: 管理飞书日历，列出、搜索、创建日程事件
+- **价值**: ⭐⭐⭐⭐ 飞书生态增强
+- **安装**: `clawhub install feishu-calendar`
 
-### 15. TravelChina / China Travel / Ctrip / Tripseek ⭐⭐⭐
-- **技能名**: travelchina, china-travel, ctrip, tripseek
-- **版本**: v1.0.0-1.0.1 | 更新: 1-11m ago
-- **描述**: 综合旅行规划、预订和管理
-- **价值**: ⭐⭐⭐ 旅行规划自动化
+### 14. Feishu Attendance ⭐⭐⭐⭐
+- **技能名**: feishu-attendance
+- **版本**: v1.0.9 | 更新: just now
+- **描述**: 监控飞书考勤，追踪迟到、早退、加班、请假
+- **价值**: ⭐⭐⭐⭐ 飞书办公自动化
+- **安装**: `clawhub install feishu-attendance`
 
-### 16. Claim Verify / Geo Fact Checker ⭐⭐⭐⭐
-- **技能名**: claim-verify, geo-fact-checker
-- **版本**: v2.0.1, v0.1.0 | 更新: 2m ago
-- **描述**: 事实核查和证据收集，GEO专注的事实核查
-- **价值**: ⭐⭐⭐⭐ 事实核查自动化
+### 15. Feishu Doc ⭐⭐⭐⭐
+- **技能名**: feishu-doc
+- **版本**: v1.2.7 | 更新: just now
+- **描述**: 从飞书知识库、文档、表格获取内容
+- **价值**: ⭐⭐⭐⭐ 飞书文档集成
+- **安装**: `clawhub install feishu-doc`
 
-### 17. Zeelin Xiaohongshu Autopost ⭐⭐⭐
-- **技能名**: zeelin-xiaohongshu-autopost
-- **版本**: v1.0.3 | 更新: 2m ago
-- **描述**: ZeeLin小红书自动化内容运营：从热文抓取→热梗生成→产品结合→发布文案的全流程自动化
-- **价值**: ⭐⭐⭐ 小红书内容自动化
+### 16. Feishu Card ⭐⭐⭐⭐
+- **技能名**: feishu-card
+- **版本**: v1.4.11 | 更新: just now
+- **描述**: 发送富交互飞书卡片，支持 markdown、按钮、表单
+- **价值**: ⭐⭐⭐⭐ 飞书消息增强
+- **安装**: `clawhub install feishu-card`
 
-### 18. CatBus ⭐⭐⭐⭐
-- **技能名**: catbus
-- **版本**: v0.1.0 | 更新: 2m ago
-- **描述**: CatBus — the Uber for AI Agents. Call skills on demand
-- **价值**: ⭐⭐⭐⭐ 按需技能调用
+### 17. AI Media ⭐⭐⭐⭐
+- **技能名**: ai-media
+- **版本**: v1.0.1 | 更新: just now
+- **描述**: 生成逼真图像、视频、数字人头像
+- **价值**: ⭐⭐⭐⭐ 多媒体生成
+- **安装**: `clawhub install ai-media`
 
-### 19. AI Company ⭐⭐⭐⭐
-- **技能名**: ai-company
-- **版本**: v0.1.0 | 更新: 3m ago
-- **描述**: 完全自主的AI公司运营系统 - 7×24小时自动化发现需求、设计、开发、销售、运维
-- **价值**: ⭐⭐⭐⭐ 自主AI公司运营
+### 18. ScholarGraph ⭐⭐⭐⭐
+- **技能名**: scholargraph
+- **版本**: v1.4.3 | 更新: just now
+- **描述**: 学术文献智能工具包，多维度分析
+- **价值**: ⭐⭐⭐⭐ 学术研究增强
+- **安装**: `clawhub install scholargraph`
 
-### 20. Agent Collaboration Network ⭐⭐⭐⭐
-- **技能名**: agent-collaboration-network
-- **版本**: v0.4.4 | 更新: 6m ago
-- **描述**: Agent Collaboration Network — Register your agent, discover others, collaborate
-- **价值**: ⭐⭐⭐⭐ 代理协作网络
-
-### 21. NotebookLM Audio Generator ⭐⭐⭐
-- **技能名**: notebooklm-audio-generator
-- **版本**: v1.0.0 | 更新: 7m ago
-- **描述**: 自动上传多个来源（文件、URL）到 NotebookLM 并生成音频摘要
-- **价值**: ⭐⭐⭐ NotebookLM 集成
-
-### 22. Decision Framework ⭐⭐⭐
-- **技能名**: decision-framework
-- **版本**: v1.0.0 | 更新: 7m ago
-- **描述**: 决策框架分析技能。提供多种经典决策模型（SWOT、10-10-10 法则、决策树、加权打分、Eisenhower 矩阵）
-- **价值**: ⭐⭐⭐ 决策分析工具
-
-### 23. Trio Vision ⭐⭐⭐⭐
-- **技能名**: trio-vision
-- **版本**: v1.0.0 | 更新: 7m ago
-- **描述**: Turn any live camera into a smart camera — describe, analyze, alert
-- **价值**: ⭐⭐⭐⭐ 智能摄像头
-
-### 24. SafuClaw ⭐⭐⭐⭐
-- **技能名**: safuclaw
-- **版本**: v0.1.3 | 更新: 9m ago
-- **描述**: Security audit gate — scans agent skills for malware, suspicious patterns, and policy violations before execution
-- **价值**: ⭐⭐⭐⭐ 安全审计
-
-### 25. Auto Content Ops ⭐⭐⭐
-- **技能名**: auto-content-ops
-- **版本**: v1.0.0 | 更新: 12m ago
-- **描述**: 自动化网络内容运营：从热文抓取→热梗生成→产品结合→发布文案的全流程自动化
-- **价值**: ⭐⭐⭐ 内容运营自动化
-
-### 26. Skill Install Guard ⭐⭐⭐⭐
-- **技能名**: skill-install-guard
-- **版本**: v1.0.0 | 更新: 12m ago
-- **描述**: 安全拦截型技能，确保安装任何技能前都经过 skill-vetter 的安全审查
-- **价值**: ⭐⭐⭐⭐ 安全增强
-
-### 27. Music Router ⭐⭐⭐
-- **技能名**: music-router
-- **版本**: v1.0.0 | 更新: 15m ago
-- **描述**: 自动转换音乐分享链接跨平台（Spotify↔Apple Music↔YouTube Music 等）
-- **价值**: ⭐⭐⭐ 音乐链接转换
-
-### 28. Resume Tailor ⭐⭐⭐
-- **技能名**: resume-tailor
-- **版本**: v1.0.0 | 更新: 17m ago
-- **描述**: 根据职位描述定制简历并生成求职信
-- **价值**: ⭐⭐⭐ 简历定制
-
-### 29. Auto PPT ⭐⭐⭐
-- **技能名**: auto-ppt
-- **版本**: v0.1.1 | 更新: 17m ago
-- **描述**: 自动生成精美 PPT 演示文稿 — 通过 Google NotebookLM 生成图文并茂、设计感强的演示文稿
-- **价值**: ⭐⭐⭐ PPT 自动生成
-
-### 30. HTML Designer ⭐⭐⭐
-- **技能名**: html-designer
-- **版本**: v1.0.0 | 更新: 17m ago
-- **描述**: 专业的网页图形设计师，专注于 HTML/CSS/JS 设计
-- **价值**: ⭐⭐⭐ 网页设计
-
-### 31. Data Report Generator ⭐⭐⭐
-- **技能名**: data-report-generator
-- **版本**: v1.0.0 | 更新: 22m ago
-- **描述**: 自动分析 CSV 或 Excel 文件并生成数据报告
-- **价值**: ⭐⭐⭐ 数据分析报告
-
-### 32. Smart Agent Memory ⭐⭐⭐⭐
-- **技能名**: smart-agent-memory
-- **版本**: v2.0.0 | 更新: 22m ago
-- **描述**: 跨平台 Agent 长期记忆系统。分层上下文供给 + 温度模型 + Skill经验记忆 + 结构化知识图谱
+### 19. Memory Mesh Core ⭐⭐⭐⭐
+- **技能名**: memory-mesh-core
+- **版本**: v1.0.6 | 更新: just now
+- **描述**: 构建可重用、评分的记忆网格，带安全护栏
 - **价值**: ⭐⭐⭐⭐ 记忆系统增强
+- **安装**: `clawhub install memory-mesh-core`
 
-### 33. Claude Skill Builder ⭐⭐⭐⭐
-- **技能名**: claude-skill-builder
-- **版本**: v1.0.0 | 更新: 22m ago
-- **描述**: Helps create, update, and audit OpenClaw skills to ClawdHub standards
-- **价值**: ⭐⭐⭐⭐ 技能开发辅助
+### 20. Soul Framework ⭐⭐⭐⭐
+- **技能名**: soul-framework
+- **版本**: v1.0.0 | 更新: just now
+- **描述**: 使AI代理采用一致人格、价值观和沟通风格
+- **价值**: ⭐⭐⭐⭐ 人格框架
+- **安装**: `clawhub install soul-framework`
 
-### 34. AgentWallet CLI ⭐⭐⭐
-- **技能名**: agentwallet-cli
-- **版本**: v1.0.0 | 更新: 22m ago
-- **描述**: 在 AgentChain 上创建和管理非托管智能钱包
-- **价值**: ⭐⭐⭐ 区块链钱包
+### 21. Soul Pack ⭐⭐⭐
+- **技能名**: soul-pack
+- **版本**: v0.1.0 | 更新: just now
+- **描述**: 导出、导入、列出 OpenClaw 的 SOUL 包
+- **价值**: ⭐⭐⭐ 人格包管理
+- **安装**: `clawhub install soul-pack`
+
+### 22. User Briefing ⭐⭐⭐⭐
+- **技能名**: user-briefing
+- **版本**: v1.0.11 | 更新: just now
+- **描述**: 提供个性化晨间简报，含当前任务和天气
+- **价值**: ⭐⭐⭐⭐ 与现有 ai-daily-briefing 形成互补
+- **安装**: `clawhub install user-briefing`
+
+### 23. Content Watcher ⭐⭐⭐
+- **技能名**: content-watcher
+- **版本**: v1.0.0 | 更新: just now
+- **描述**: 监控 RSS 订阅、博客和新闻源，AI摘要
+- **价值**: ⭐⭐⭐ 与现有 blogwatcher 形成互补
+- **安装**: `clawhub install content-watcher`
+
+### 24. Vocabulary Builder ⭐⭐⭐
+- **技能名**: vocabulary-builder
+- **版本**: v1.1.2 | 更新: just now
+- **描述**: 从书籍、播客、视频构建和复习词汇
+- **价值**: ⭐⭐⭐ 语言学习
+- **安装**: `clawhub install vocabulary-builder`
+
+### 25. ClawTV ⭐⭐⭐
+- **技能名**: clawtv
+- **版本**: v1.0.2 | 更新: just now
+- **描述**: AI驱动的 Apple TV 遥控器，使用视觉自动化导航
+- **价值**: ⭐⭐⭐ 智能家居
+- **安装**: `clawhub install clawtv`
+
+### 26. PPTX-2 ⭐⭐⭐
+- **技能名**: pptx-2
+- **版本**: v0.1.1 | 更新: just now
+- **描述**: 创建、编辑、分析 .pptx 演示文稿
+- **价值**: ⭐⭐⭐ PPT自动化
+- **安装**: `clawhub install pptx-2`
+
+### 27. TokPortal ⭐⭐⭐
+- **技能名**: tokportal
+- **版本**: v1.0.0 | 更新: just now
+- **描述**: 大规模自动化 TikTok 和 Instagram 账户管理
+- **价值**: ⭐⭐⭐ 社交媒体自动化
+- **安装**: `clawhub install tokportal`
+
+### 28. Task System ⭐⭐⭐
+- **技能名**: task-system
+- **版本**: v1.0.1 | 更新: just now
+- **描述**: 任务管理，自动创建、SQLite追踪、优先级排序
+- **价值**: ⭐⭐⭐ 任务管理
+- **安装**: `clawhub install task-system`
+
+### 29. Docsync ⭐⭐⭐
+- **技能名**: docsync
+- **版本**: v1.0.1 | 更新: just now
+- **描述**: 从代码自动生成和同步文档
+- **价值**: ⭐⭐⭐ 文档自动化
+- **安装**: `clawhub install docsync`
+
+### 30. Wakapi Sync Skill ⭐⭐⭐
+- **技能名**: wakapi-sync-skill
+- **版本**: v0.2.1 | 更新: just now
+- **描述**: 每日 Wakapi (WakaTime兼容) 摘要 → 本地记忆
+- **价值**: ⭐⭐⭐ 开发者时间追踪
+- **安装**: `clawhub install wakapi-sync-skill`
 
 ---
 
 ## 📦 已安装技能清单
 
-当前工作区已安装 **54** 个本地技能 + **52** 个系统级技能
+当前工作区已安装 **55** 个本地技能 + **52** 个系统级技能
 
 ### 本地工作区技能 (~/.openclaw/workspace/skills/)
 ```
@@ -298,12 +290,12 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 
 ## 📊 扫描统计
 
-- **本地技能**: 54 个
+- **本地技能**: 55 个
 - **系统级技能**: 52 个
 - **ClawHub 锁定技能**: 12 个
-- **本次新发现 ClawHub 技能**: 34 个 (explore 扫描)
-- **高价值候选**: 12 个
-- **最新更新技能**: 34 个（explore 扫描）
+- **本次新发现 ClawHub 技能**: 30+ 个 (explore 扫描)
+- **高价值候选**: 11 个
+- **最新更新技能**: 30+ 个（explore 扫描）
 
 ---
 
@@ -311,68 +303,64 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 
 ### 🔥 高优先级（强烈推荐）
 
-1. **ai-meeting-notes** (3.706 ↑)
+1. **ai-meeting-notes** (3.727 ↑)
    - AI 会议笔记自动生成，含行动项追踪
    - 与现有 ai-daily-briefing 形成互补
    - 无需设置，即用型
 
-2. **ai-notes-of-video** (3.723 ↑)
-   - AI 视频笔记自动生成
-   - 适合学习、会议记录、内容分析
-   - 与现有 video-frames 形成互补
+2. **elite-longterm-memory** (3.744 ↑)
+   - 评分最高记忆技能
+   - 评估与现有记忆系统的差异
 
-3. **filesystem-mcp** (3.694 ↑)
-   - MCP 协议标准化的文件系统访问
-   - 与现有 mcp-lark 形成 MCP 协议矩阵
+3. **agent-browser** (3.801 ↑)
+   - 已安装 0.2.0，建议升级
+   - 浏览器自动化首选
 
-4. **codex-orchestrator** (3.721 ↑)
+4. **codex-orchestrator** (3.543)
    - Codex 多代理编排协调
-   - 评分大幅提升，Codex 生态核心
+   - 适合复杂编码任务
 
-5. **video-subtitles** (3.705 ↑)
+5. **video-subtitles** (3.490)
    - 视频字幕自动生成
-   - 评分大幅提升，适合多媒体内容创作
+   - 适合多媒体内容创作
 
 ### ⭐ 中优先级
 
-6. **fast-browser-use** (3.393)
+6. **filesystem-mcp** (3.505)
+   - MCP 协议标准化的文件系统访问
+   - 与现有 mcp-lark 形成 MCP 协议矩阵
+
+7. **fast-browser-use** (3.623 ↑)
    - 高性能浏览器自动化
-   - 可作为 agent-browser 升级候选
+   - 评分大幅提升
 
-7. **agent-scorecard** (3.261)
-   - 代理质量评估
-   - 生产环境质量保障
-
-8. **memoryai** (3.222)
-   - 持久长期记忆
-   - 评估与现有记忆技能差异
-
-9. **xiaohongshu-mcp** (2.633-3.694)
+8. **xiaohongshu-mcp** (3.616 ↑)
    - 小红书 MCP 自动化运营
-   - 适合社交媒体内容创作
+   - 评分大幅提升
 
-10. **telegram-bot** (3.719)
-    - Telegram 机器人构建
-    - 作为 Feishu 备选消息平台
+9. **telegram-bot** (3.528)
+   - Telegram 机器人构建
+   - 作为 Feishu 备选消息平台
 
-11. **heygen-avatar-lite** (3.727 ↑)
-    - HeyGen AI 头像视频
-    - 补充静态头像能力
+10. **feishu-calendar** (v1.0.0)
+    - 飞书日历管理
+    - 飞书生态增强
 
-12. **codex-cli-task** (2.137)
-    - 后台异步 Codex CLI
-    - 与 codex-orchestrator 形成完整生态
+11. **feishu-attendance** (v1.0.9)
+    - 飞书考勤监控
+    - 办公自动化
 
 ### 🆕 新兴技能关注
 
-13. **web-search-ex-skill** - 多引擎搜索，无需API密钥
-14. **catbus** - 按需技能调用平台
-15. **ai-company** - 自主AI公司运营系统
-16. **agent-collaboration-network** - 代理协作网络
-17. **trio-vision** - 智能摄像头
-18. **safuclaw** - 安全审计增强
-19. **smart-agent-memory** - 跨平台记忆系统 v2.0
-20. **claude-skill-builder** - 技能开发辅助
+12. **auto-skill-hunter** - 自动技能发现
+13. **feishu-doc** - 飞书文档集成
+14. **feishu-card** - 飞书富交互卡片
+15. **ai-media** - 多媒体生成
+16. **scholargraph** - 学术文献智能
+17. **memory-mesh-core** - 记忆网格核心
+18. **soul-framework** - 人格框架
+19. **user-briefing** - 用户简报
+20. **content-watcher** - 内容监控
 
 ---
 
@@ -380,38 +368,37 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 
 **🔥 本次扫描强烈推荐关注**:
 
-1. **ai-meeting-notes** - AI 会议笔记生成 ⭐⭐⭐⭐⭐ (评分 3.706 ↑)
-2. **ai-notes-of-video** - AI 视频笔记 ⭐⭐⭐⭐⭐ (评分 3.723 ↑)
-3. **filesystem-mcp** - MCP 文件系统访问 ⭐⭐⭐⭐⭐ (评分 3.694 ↑)
-4. **codex-orchestrator** - Codex 多代理编排 ⭐⭐⭐⭐⭐ (评分 3.721 ↑)
-5. **video-subtitles** - 视频字幕生成 ⭐⭐⭐⭐⭐ (评分 3.705 ↑)
-6. **heygen-avatar-lite** - HeyGen AI 视频 ⭐⭐⭐⭐ (评分 3.727 ↑)
-7. **telegram-bot** - Telegram 机器人 ⭐⭐⭐⭐ (评分 3.719)
-8. **fast-browser-use** - 高性能浏览器自动化 ⭐⭐⭐⭐ (评分 3.393)
-9. **agent-scorecard** - 代理质量评估 ⭐⭐⭐⭐ (评分 3.261)
-10. **memoryai** - 持久长期记忆 ⭐⭐⭐⭐ (评分 3.222)
-11. **xiaohongshu-mcp** - 小红书 MCP 自动化 ⭐⭐⭐ (评分 2.633-3.694)
-12. **codex-cli-task** - 后台 Codex CLI ⭐⭐⭐⭐ (评分 2.137)
+1. **ai-meeting-notes** - AI 会议笔记生成 ⭐⭐⭐⭐⭐ (评分 3.727 ↑)
+2. **elite-longterm-memory** - 高级长期记忆 ⭐⭐⭐⭐⭐ (评分 3.744 ↑)
+3. **agent-browser** - 浏览器自动化 ⭐⭐⭐⭐⭐ (评分 3.801 ↑ 建议升级)
+4. **codex-orchestrator** - Codex 多代理编排 ⭐⭐⭐⭐⭐ (评分 3.543)
+5. **video-subtitles** - 视频字幕生成 ⭐⭐⭐⭐⭐ (评分 3.490)
+6. **fast-browser-use** - 高性能浏览器自动化 ⭐⭐⭐⭐ (评分 3.623 ↑)
+7. **xiaohongshu-mcp** - 小红书 MCP 自动化 ⭐⭐⭐⭐ (评分 3.616 ↑)
+8. **telegram-bot** - Telegram 机器人 ⭐⭐⭐⭐ (评分 3.528)
+9. **heygen-avatar-lite** - HeyGen AI 视频 ⭐⭐⭐ (评分 3.518)
+10. **agent-scorecard** - 代理质量评估 ⭐⭐⭐ (评分 3.209)
+11. **feishu-calendar** - 飞书日历 ⭐⭐⭐⭐ (v1.0.0)
+12. **feishu-attendance** - 飞书考勤 ⭐⭐⭐⭐ (v1.0.9)
 
 **🆕 最新热门技能**:
-- web-search-ex-skill (多引擎搜索)
-- catbus (按需技能调用)
-- ai-company (自主AI公司)
-- agent-collaboration-network (代理协作)
-- notebooklm-audio-generator (NotebookLM音频)
-- decision-framework (决策框架)
-- trio-vision (智能摄像头)
-- safuclaw (安全审计)
-- auto-content-ops (内容运营自动化)
-- skill-install-guard (技能安装守卫)
-- music-router (音乐链接转换)
-- resume-tailor (简历定制)
-- auto-ppt (PPT自动生成)
-- html-designer (网页设计)
-- data-report-generator (数据报告)
-- smart-agent-memory (智能记忆 v2.0)
-- claude-skill-builder (技能构建器)
-- agentwallet-cli (区块链钱包)
+- auto-skill-hunter (自动技能发现)
+- feishu-doc (飞书文档集成)
+- feishu-card (飞书富交互卡片)
+- ai-media (多媒体生成)
+- scholargraph (学术文献智能)
+- memory-mesh-core (记忆网格核心)
+- soul-framework (人格框架)
+- soul-pack (人格包管理)
+- user-briefing (用户简报)
+- content-watcher (内容监控)
+- vocabulary-builder (词汇构建)
+- clawtv (Apple TV 控制)
+- pptx-2 (PPT自动化)
+- tokportal (TikTok/Instagram自动化)
+- task-system (任务系统)
+- docsync (文档同步)
+- wakapi-sync-skill (开发者时间追踪)
 
 ---
 
@@ -419,16 +406,22 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 
 | 技能 | 上次评分 | 当前评分 | 变化 |
 |------|----------|----------|------|
-| ai-meeting-notes | 3.573 | 3.706 | ↑ +0.133 |
-| ai-notes-of-video | 3.506 | 3.723 | ↑ +0.217 |
-| filesystem-mcp | 3.509 | 3.694 | ↑ +0.185 |
-| codex-orchestrator | 3.542 | 3.721 | ↑ +0.179 |
-| video-subtitles | 3.489 | 3.705 | ↑ +0.216 |
-| heygen-avatar-lite | 3.490 | 3.727 | ↑ +0.237 |
-| agent-scorecard | 3.199 | 3.261 | ↑ +0.062 |
-| memoryai | 3.221 | 3.222 | → 稳定 |
+| ai-meeting-notes | 3.706 | 3.727 | ↑ +0.021 |
+| elite-longterm-memory | 3.222 | 3.744 | ↑ +0.522 |
+| agent-browser | 3.393 | 3.801 | ↑ +0.408 |
+| codex-orchestrator | 3.721 | 3.543 | ↓ -0.178 |
+| video-subtitles | 3.705 | 3.490 | ↓ -0.215 |
+| filesystem-mcp | 3.694 | 3.505 | ↓ -0.189 |
+| fast-browser-use | 3.248 | 3.623 | ↑ +0.375 |
+| xiaohongshu-mcp | 2.633 | 3.616 | ↑ +0.983 |
+| telegram-bot | 3.719 | 3.528 | ↓ -0.191 |
+| heygen-avatar-lite | 3.727 | 3.518 | ↓ -0.209 |
+| agent-scorecard | 3.261 | 3.209 | ↓ -0.052 |
 
-**趋势**: 所有追踪技能评分均有提升，ClawHub 生态系统持续活跃！
+**趋势**: 
+- **大幅上升**: xiaohongshu-mcp (+0.983), elite-longterm-memory (+0.522), agent-browser (+0.408), fast-browser-use (+0.375)
+- **略有下降**: 部分技能评分小幅回落，但仍保持高价值
+- **ClawHub 生态系统持续活跃**，飞书生态技能大量涌现
 
 ---
 
@@ -444,3 +437,4 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 - 2026-03-10 06:01: 本地 54 技能，系统 52 技能，评分更新: fast-browser-use (3.623 ↑ 回升), filesystem-mcp (3.509), memoryai (3.221), 无新技能发现
 - 2026-03-10 08:01: 本地 54 技能，系统 52 技能，ClawHub 12 锁定技能，explore 扫描发现 25 个最新更新技能
 - 2026-03-10 10:01: 本地 54 技能，系统 52 技能，explore 扫描发现 34 个最新技能，高价值技能评分全面提升，新增 catbus、ai-company、agent-collaboration-network 等新兴技能
+- 2026-03-10 12:05: 本地 55 技能，系统 52 技能，explore 扫描发现 30+ 个最新技能，xiaohongshu-mcp 评分暴涨 (+0.983)，agent-browser 评分大幅提升 (+0.408)，飞书生态技能大量涌现
