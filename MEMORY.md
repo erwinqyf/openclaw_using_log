@@ -5,33 +5,72 @@
 - **联网搜索优先使用 searxng skill** —— 只要涉及联网搜索任务，优先调用 searxng 技能而非直接使用 web_search 工具。
 - **Tavily 作为备选** —— 当需要深度搜索或带摘要的查询时使用（API key 已配置）
 
-## Memory System (v2 - 优化版)
+## Memory System (v3 - Elite Longterm Memory) 🧠
 
 ### 架构设计
-参考 CLAUDE.md + notes/ 模式，采用分层持久化：
+6层记忆架构，解决 session 隔离问题：
 
 ```
-memory/
-├── INDEX.md              # 关键词索引（自动生成，快速检索）
-├── MEMORY.md             # 核心索引（本文件，全局偏好）
-├── lessons.md            # 踩坑记录（全局）
-├── projects.md           # 项目总览（从各项目聚合）
-├── logs/
-│   └── YYYY-MM-DD.md    # 每日日志（对话结论）
-└── projects/
-    ├── <project-name>/
-    │   └── status.md    # 项目专用状态
+workspace/
+├── SESSION-STATE.md      ← 🆕 HOT RAM (热内存，跨 session 存活)
+├── .elite-memory/
+│   ├── config.json       # 系统配置
+│   ├── recall.sh         # 记忆检索脚本
+│   ├── extract.sh        # 事实提取脚本
+│   └── git-notes/
+│       └── memory.py     # Git-Notes 知识图谱
+├── memory/
+│   ├── INDEX.md          # 关键词索引
+│   ├── logs/
+│   │   └── YYYY-MM-DD.md # 每日日志
+│   └── projects/
+│       └── <name>/
+│           └── status.md # 项目状态
+└── MEMORY.md             # 核心索引（本文件）
 ```
 
-### 生命周期协议
+### 6层记忆架构
+
+| 层级 | 名称 | 存储 | 用途 | 存活时间 |
+|------|------|------|------|----------|
+| 1 | **HOT RAM** | SESSION-STATE.md | 当前 session 状态 | 跨 session |
+| 2 | **WARM STORE** | LanceDB (可选) | 语义向量搜索 | 持久 |
+| 3 | **COLD STORE** | Git-Notes | 永久决策记录 | 永久 |
+| 4 | **CURATED** | memory/ | 人工可读档案 | 持久 |
+| 5 | **SESSION** | sessions/*.jsonl | 原始对话记录 | 30天 |
+| 6 | **CLOUD** | SuperMemory (可选) | 跨设备同步 | 云端 |
+
+### 生命周期协议 (WAL)
 ```
-init (session 启动读取) → work (对话中追加) → save (晚间同步持久化)
+RETRIEVE → EXTRACT → RESPOND → STORE
+(检索)    (提取)    (回应)    (存储)
+```
+
+**关键规则**: Write BEFORE responding (先写后回)
+
+### 核心命令
+
+```bash
+# 记忆检索 (多层级搜索)
+./.elite-memory/recall.sh "query" [limit]
+
+# 事实提取
+./.elite-memory/extract.sh "user message"
+
+# 存储永久决策
+python3 .elite-memory/git-notes/memory.py remember "内容" "标签" "重要性(h/m/l)"
+
+# 检索 Git-Notes
+python3 .elite-memory/git-notes/memory.py get "query"
+python3 .elite-memory/git-notes/memory.py list
 ```
 
 ### 检索命令
 ```bash
-# 关键词搜索
+# 关键词搜索 (所有层级)
 grep -r "#关键词" ~/.openclaw/workspace/memory/
+grep -r "关键词" ~/.openclaw/workspace/SESSION-STATE.md
+./.elite-memory/recall.sh "关键词"
 
 # 最新日志
 ls -lt ~/.openclaw/workspace/memory/logs/ | head -3

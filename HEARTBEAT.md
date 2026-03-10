@@ -4,6 +4,32 @@
 
 ---
 
+## 🧠 Elite Longterm Memory 维护
+
+### 每 Session 启动时
+1. **读取 SESSION-STATE.md** — 获取 HOT RAM 上下文
+2. **检索 Git-Notes** — `python3 .elite-memory/git-notes/memory.py list`
+3. **读取近期日志** — `memory/logs/YYYY-MM-DD.md`
+
+### 每用户消息时 (WAL 协议)
+1. **RETRIEVE** — `./.elite-memory/recall.sh "关键词"`
+2. **EXTRACT** — `./.elite-memory/extract.sh "用户消息"`
+3. **RESPOND** — 应用记忆上下文后回应
+4. **STORE** — 更新 SESSION-STATE.md
+
+### 每天 0:00 (晚间同步)
+1. 从 SESSION-STATE.md 提取重要决策
+2. 写入 Git-Notes: `python3 .elite-memory/git-notes/memory.py remember "决策" "标签" "h"`
+3. 同步到 memory/logs/YYYY-MM-DD.md
+4. Git commit + push
+
+### 每周 (记忆卫生)
+1. 清理 SESSION-STATE.md 已完成任务
+2. 归档旧日志到 MEMORY.md
+3. 检查 Git-Notes 健康状态
+
+---
+
 ## 📚 主动学习检查 (每 2 小时)
 
 ### ClawHub/GitHub 新技能扫描
@@ -22,15 +48,6 @@
 
 ---
 
-## 🧠 记忆维护
-
-每 3 天：
-1. 阅读最近的日志
-2. 提取重要学习
-3. 更新 `MEMORY.md`
-
----
-
 ## 🎁 主动惊喜
 
 **问自己:**
@@ -40,4 +57,4 @@
 
 ---
 
-_最后更新：2026-03-08_
+_最后更新：2026-03-10 (Elite Longterm Memory v3)_
