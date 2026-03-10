@@ -1,0 +1,72 @@
+{
+  "name": "语言服务行业监控",
+  "version": "2.0",
+  "schedule": "0 9 * * 2,4,6",
+  "timezone": "Asia/Shanghai",
+  "output": {
+    "type": "feishu_doc",
+    "doc_id": "IuVJdqS6uoYWOWxEz60cgfWXnh7",
+    "doc_name": "语言服务行业监控",
+    "format": "by_date_section"
+  },
+  "sources": [
+    {
+      "name": "Slator",
+      "url": "https://slator.com",
+      "type": "primary",
+      "enabled": true
+    },
+    {
+      "name": "TransPerfect Blog",
+      "url": "https://www.transperfect.com/blog",
+      "type": "primary",
+      "enabled": true
+    },
+    {
+      "name": "memoQ News",
+      "url": "https://www.memoq.com/news",
+      "type": "primary",
+      "enabled": true
+    },
+    {
+      "name": "RWS News",
+      "url": "https://www.rws.com/news",
+      "type": "secondary",
+      "enabled": true
+    },
+    {
+      "name": "Multilingual",
+      "url": "https://multilingual.com",
+      "type": "secondary",
+      "enabled": false,
+      "note": "访问受限"
+    },
+    {
+      "name": "Nimdzi",
+      "url": "https://nimdzi.com",
+      "type": "secondary",
+      "enabled": false,
+      "note": "访问受限"
+    }
+  ],
+  "format": {
+    "sections": [
+      "重点核心动态",
+      "企业动态",
+      "行业趋势观察",
+      "监控覆盖说明",
+      "下周关注"
+    ],
+    "requirements": [
+      "每个新闻/动态必须标注来源 URL",
+      "按日期分章节 (## YYYY-MM-DD)",
+      "重点动态用【重点】标记",
+      "来源URL放在每个条目开头"
+    ]
+  },
+  "notification": {
+    "enabled": true,
+    "channel": "feishu",
+    "message": "语言服务行业监控报告已更新，请查看云文档"
+  }
+}

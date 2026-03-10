@@ -4,19 +4,21 @@
 - **当前状态**: 🔄 运行中
 - **启动日期**: 2026-03-06
 - **报告频率**: 周二/四/六 9:00 AM
-- **最后报告**: 2026-03-07 (覆盖 2/28-3/7)
+- **最后报告**: 2026-03-10 (初始化云文档)
+- **飞书文档**: https://feishu.cn/docx/IuVJdqS6uoYWOWxEz60cgfWXnh7
 
-## 监控来源
-| 来源 | 状态 | 备注 |
-|------|------|------|
-| Slator | ✅ | 核心来源，市场情报 |
-| TransPerfect | ✅ | 企业博客 |
-| memoQ | ✅ | MT 供应商 |
-| Multilingual.com | ⚠️ | 访问受限 |
-| Nimdzi | ⚠️ | 访问受限 |
-| Lionbridge | ⚠️ | 404 |
-| Smartling | ⚠️ | 404 |
-| Welocalize | ⚠️ | 404 |
+## 监控来源 (必须标注URL)
+| 来源 | URL | 状态 | 备注 |
+|------|-----|------|------|
+| Slator | https://slator.com | ✅ | 核心来源，市场情报 |
+| TransPerfect | https://www.transperfect.com/blog | ✅ | 企业博客 |
+| memoQ | https://www.memoq.com/news | ✅ | MT 供应商 |
+| RWS | https://www.rws.com/news | ✅ | 新增 |
+| Multilingual.com | https://multilingual.com | ⚠️ | 访问受限 |
+| Nimdzi | https://nimdzi.com | ⚠️ | 访问受限 |
+| Lionbridge | https://www.lionbridge.com/news | ⚠️ | 404 |
+| Smartling | https://www.smartling.com/blog | ⚠️ | 404 |
+| Welocalize | https://www.welocalize.com/news | ⚠️ | 404 |
 
 ## 近期核心动态
 
@@ -30,9 +32,17 @@
 - **London**: 2026-05-22 (Nobu Hotel)
 
 ## 待办事项
+- [x] 创建飞书云文档 (2026-03-10)
+- [x] 配置来源URL要求 (2026-03-10)
 - [ ] 3/24 跟踪 SlatorCon Remote 内容
 - [ ] 持续监控 Straker 双 CEO 过渡
 - [ ] 配置 Brave Search API 增强覆盖
+
+## 输出规范
+1. **飞书云文档**: https://feishu.cn/docx/IuVJdqS6uoYWOWxEz60cgfWXnh7
+2. **格式**: 按日期分章节 (`## YYYY-MM-DD`)
+3. **来源URL**: 每个条目必须标注完整URL
+4. **重点标记**: 核心动态用【重点】标注
 
 ## 相关文件
 - 报告输出：`../../reports/industry-monitoring/`
