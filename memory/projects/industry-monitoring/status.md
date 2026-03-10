@@ -22,21 +22,36 @@
 
 ## 近期核心动态
 
-### 1. Straker 领导层变更 (2026-03-04)
+### 1. 2026年AI翻译六大趋势 (2026-03-10)
+- **来源**: https://poeditor.com/blog/ai-translation-trends-2026/
+- POEditor发布AI翻译趋势报告
+- 行业从NMT向LLM转型
+- 本地化团队将变为AI运营团队
+
+### 2. Google端到端语音翻译突破 (2026-03-10)
+- **来源**: https://research.google/blog/real-time-speech-to-speech-translation/
+- 亚3秒延迟实时语音翻译
+- 保留原声特征
+- 应用场景：会议、客服、消费设备
+
+### 3. Straker 领导层变更 (2026-03-04)
+- **来源**: https://slator.com
 - Grant Straker 卸任 CEO (26 年后)
 - 新架构：双 CEO (David Sowerby + Indiver Nagpal)
 - 战略：AI 优先增长
 
-### 2. SlatorCon 2026
+### 4. SlatorCon 2026
 - **Remote**: 2026-03-24 (线上)
 - **London**: 2026-05-22 (Nobu Hotel)
 
 ## 待办事项
 - [x] 创建飞书云文档 (2026-03-10)
 - [x] 配置来源URL要求 (2026-03-10)
+- [x] 运行今日行业监控 (2026-03-10)
 - [ ] 3/24 跟踪 SlatorCon Remote 内容
 - [ ] 持续监控 Straker 双 CEO 过渡
 - [ ] 配置 Brave Search API 增强覆盖
+- [ ] 关注Google S2ST技术商业落地
 
 ## 输出规范
 1. **飞书云文档**: https://feishu.cn/docx/IuVJdqS6uoYWOWxEz60cgfWXnh7
