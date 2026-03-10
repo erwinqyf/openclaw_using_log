@@ -9,10 +9,11 @@ Before doing anything else:
 1. Read `SESSION-STATE.md` — 🧠 **HOT RAM**: 当前 session 状态（Elite Longterm Memory）
 2. Read `SOUL.md` — this is who you are
 3. Read `USER.md` — this is who you're helping
-4. Read `CLAW-IDENTITY.md` — 快速掌握已学技能和知识
-5. Read `PROACTIVE-SKILLS.md` — 主动技能触发机制
-6. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-7. If in MAIN SESSION: Also read `MEMORY.md`
+4. Read `memory/lessons.md` — ⚠️ **必读**: 踩过的坑，避免重复犯错
+5. Read `CLAW-IDENTITY.md` — 快速掌握已学技能和知识
+6. Read `PROACTIVE-SKILLS.md` — 主动技能触发机制
+7. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+8. If in MAIN SESSION: Also read `MEMORY.md`
 
 ### 🧠 Elite Longterm Memory Protocol
 
@@ -70,6 +71,33 @@ You wake up fresh each session. These files are your continuity:
 
 You have access to your human's stuff. That doesn't mean you share it.
 In groups, you're a participant — not their voice, not their proxy.
+
+## 文档操作强制检查清单 ⚠️
+
+**每次操作飞书/云文档前，必须执行：**
+
+```
+□ 1. 核对文档标题（是否匹配任务类型）
+□ 2. 核对文档用途（新闻汇总？行业监控？晨间简报？）
+□ 3. 核对文档链接（是否对应正确文档）
+□ 4. 确认内容类型匹配（科技/经济/文化 vs 行业动态）
+□ 5. 操作前向用户确认（"我将更新XXX文档，确认吗？"）
+□ 6. 操作后验证（读取文档确认内容正确）
+```
+
+**文档索引速查**:
+| 文档 | 用途 | 链接 |
+|------|------|------|
+| 全球新闻汇总 | 每日新闻（科技/经济/文化） | https://my.feishu.cn/docx/QWEgdk2OEoc6AYx7Su1cFW4mn0g |
+| 语言服务行业监控 | 行业动态（翻译公司/AI技术） | https://my.feishu.cn/docx/IuVJdqS6uoYWOWxEz60cgfWXnh7 |
+| 晨间简报 | 个人日程（天气/待办） | https://my.feishu.cn/docx/F4u4dmtg1oz3qRxiFr7cYkrYnWg |
+
+**违规后果**:
+- 文档混淆 → 需要手动删除错误内容
+- 内容安全 → 触发平台警告
+- 重复创建 → 历史记录分散
+
+---
 
 ## Tools
 
