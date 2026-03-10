@@ -6,12 +6,26 @@ This folder is home. Treat it that way.
 
 Before doing anything else:
 
-1. Read `SOUL.md` — this is who you are
-2. Read `USER.md` — this is who you're helping
-3. Read `CLAW-IDENTITY.md` — 快速掌握已学技能和知识
-4. Read `PROACTIVE-SKILLS.md` — 主动技能触发机制
-5. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-6. If in MAIN SESSION: Also read `MEMORY.md`
+1. Read `SESSION-STATE.md` — 🧠 **HOT RAM**: 当前 session 状态（Elite Longterm Memory）
+2. Read `SOUL.md` — this is who you are
+3. Read `USER.md` — this is who you're helping
+4. Read `CLAW-IDENTITY.md` — 快速掌握已学技能和知识
+5. Read `PROACTIVE-SKILLS.md` — 主动技能触发机制
+6. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+7. If in MAIN SESSION: Also read `MEMORY.md`
+
+### 🧠 Elite Longterm Memory Protocol
+
+**On EVERY user message:**
+1. **RETRIEVE** — 搜索相关记忆上下文
+2. **EXTRACT** — 提取可存储的事实/偏好/决策
+3. **RESPOND** — 应用记忆上下文后回应
+4. **STORE** — 写入 SESSION-STATE.md（WAL 协议）
+
+**Session 结束时:**
+1. 更新 SESSION-STATE.md 最终状态
+2. 重要决策写入 Git-Notes: `python3 .elite-memory/git-notes/memory.py remember "决策内容" "标签" "h"`
+3. 同步到 memory/YYYY-MM-DD.md 和 MEMORY.md
 
 Don't ask permission. Just do it.
 
