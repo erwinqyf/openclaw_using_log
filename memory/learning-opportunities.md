@@ -1,247 +1,225 @@
 # 技能学习机会追踪
 
 > 自动扫描 ClawHub/GitHub 发现的潜在有价值技能
-> 最后更新: 2026-03-10 12:05
+> 最后更新: 2026-03-10 14:01
 
 ---
 
 ## 🔥 高价值技能（建议优先关注）
 
-### 1. AI Meeting Notes ⭐⭐⭐⭐⭐
-- **技能名**: ai-meeting-notes
-- **评分**: 3.727 (↑ 较上次 3.706)
-- **描述**: 杂乱笔记→清晰行动项。粘贴会议记录、转录或文本，获取摘要、带负责人和截止日期的行动项。自动保存、可搜索、集成待办追踪
-- **价值**: ⭐⭐⭐⭐⭐ 会议自动化处理，与 ai-daily-briefing 互补
+### 1. FreedomIntelligence/OpenClaw-Medical-Skills ⭐⭐⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 721
+- **描述**: 最大的开源医疗 AI 技能库
+- **价值**: ⭐⭐⭐⭐⭐ 医疗领域专业技能集合
 - **状态**: 未安装
-- **建议**: 无需机器人、订阅或设置，即用型会议助手
-- **安装**: `clawhub install ai-meeting-notes`
+- **建议**: 医疗相关 AI 应用开发必备
+- **安装**: `clawhub install FreedomIntelligence/OpenClaw-Medical-Skills`
 
-### 2. Elite Longterm Memory ⭐⭐⭐⭐⭐
-- **技能名**: elite-longterm-memory
-- **评分**: 3.744 (↑ 较上次 3.222)
-- **描述**: 高级长期记忆系统，提供比现有 memoryai 更强大的记忆能力
-- **价值**: ⭐⭐⭐⭐⭐ 评分最高记忆技能，超越现有 agent-brain
-- **状态**: 未安装（已有 agent-brain、elite-longterm-memory 本地版）
-- **建议**: 评估与现有记忆系统的差异，考虑升级
-- **安装**: `clawhub install elite-longterm-memory`
-
-### 3. Agent Browser ⭐⭐⭐⭐⭐
-- **技能名**: agent-browser
-- **评分**: 3.801 (↑ 较上次 3.393)
-- **描述**: 高性能浏览器自动化，适用于重度爬取、多标签管理和精确DOM提取
-- **价值**: ⭐⭐⭐⭐⭐ 评分大幅提升，浏览器自动化首选
-- **状态**: 已安装 0.2.0（可升级）
-- **建议**: 当前版本较旧，建议升级获取最新功能
-- **安装**: `clawhub update agent-browser`
-
-### 4. Codex Orchestrator ⭐⭐⭐⭐⭐
-- **技能名**: codex-orchestrator
-- **评分**: 3.543 (↑ 较上次 3.721)
-- **描述**: 监控、控制和编排后台 Codex 会话。跟踪进度、处理中断、确保长时间编码任务完成
-- **价值**: ⭐⭐⭐⭐⭐ Codex 生态核心
+### 2. VoltAgent/awesome-openclaw-skills ⭐⭐⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 33,620
+- **描述**: OpenClaw 技能精选集合，从官方注册表过滤分类 5,400+ 技能
+- **价值**: ⭐⭐⭐⭐⭐ 技能发现首选资源
 - **状态**: 未安装
-- **建议**: 适合复杂多代理编码任务协调
-- **安装**: `clawhub install codex-orchestrator`
+- **建议**: 技能浏览和发现的一站式入口
+- **安装**: `clawhub install VoltAgent/awesome-openclaw-skills`
 
-### 5. Video Subtitles ⭐⭐⭐⭐⭐
-- **技能名**: video-subtitles
-- **评分**: 3.490 (较上次 3.705 略有下降)
-- **描述**: 从视频/音频生成SRT字幕，支持翻译。转录希伯来语(ivrit.ai)和英语(whisper)，多语言翻译，烧录字幕到视频
-- **价值**: ⭐⭐⭐⭐⭐ 与现有 video-frames 形成视频处理矩阵
+### 3. prompt-security/clawsec ⭐⭐⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 686
+- **描述**: OpenClaw 完整安全技能套件，包含漂移检测、实时安全建议、自动审计、技能完整性验证
+- **价值**: ⭐⭐⭐⭐⭐ 安全强化必备
+- **状态**: 未安装（已有 arc-security-audit）
+- **建议**: 与现有安全审计技能互补
+- **安装**: `clawhub install prompt-security/clawsec`
+
+### 4. YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill ⭐⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 1,182
+- **描述**: 从 10000+ Nano Banana Pro (Gemini) 图像提示词中智能推荐，支持按用例搜索、内容混剪
+- **价值**: ⭐⭐⭐⭐ AI 图像生成提示词库
 - **状态**: 未安装
-- **建议**: 适合多媒体内容创作、社交媒体字幕
-- **安装**: `clawhub install video-subtitles`
+- **建议**: 图像生成工作流增强
+- **安装**: `clawhub install YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill`
 
-### 6. Filesystem MCP ⭐⭐⭐⭐
-- **技能名**: filesystem-mcp
-- **评分**: 3.505 (较上次 3.694 略有下降)
-- **描述**: 安全、沙盒化的文件系统访问，支持列出、读取、写入、创建、移动、删除、搜索文件和目录
-- **价值**: ⭐⭐⭐⭐ 与现有 mcp-lark 形成 MCP 协议矩阵
-- **状态**: 未安装（已有 mcp-lark 1.0.0）
-- **建议**: 增强文件操作能力，标准化文件系统访问
-- **安装**: `clawhub install filesystem-mcp`
-
-### 7. Fast Browser Use ⭐⭐⭐⭐
-- **技能名**: fast-browser-use
-- **评分**: 3.623 (↑ 较上次 3.248)
-- **描述**: 高性能浏览器自动化，适用于重度爬取、多标签管理和精确DOM提取。支持高级状态管理（cookies/local storage）
-- **价值**: ⭐⭐⭐⭐ 评分大幅提升，可作为 agent-browser 的备选
-- **状态**: 未安装（已有 agent-browser 0.2.0）
-- **建议**: 评估性能差异后决定是否替换
-- **安装**: `clawhub install fast-browser-use`
-
-### 8. Xiaohongshu MCP ⭐⭐⭐⭐
-- **技能名**: xiaohongshu-mcp
-- **评分**: 3.616 (↑ 较上次 2.633)
-- **描述**: 小红书自动化内容运营：发布图文视频、搜索笔记趋势、分析帖子评论、管理用户资料
-- **价值**: ⭐⭐⭐⭐ 评分大幅提升，社交媒体自动化
+### 5. swarmclawai/swarmclaw ⭐⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 93
+- **描述**: 自托管 AI 代理编排仪表板，支持 OpenClaw 集成、多提供商、LangGraph 工作流、聊天平台连接器
+- **价值**: ⭐⭐⭐⭐ 多代理编排平台
 - **状态**: 未安装
-- **建议**: 适合小红书内容创作者
-- **安装**: `clawhub install xiaohongshu-mcp`
+- **建议**: 适合复杂多代理系统管理
+- **安装**: `clawhub install swarmclawai/swarmclaw`
 
-### 9. Telegram Bot ⭐⭐⭐⭐
-- **技能名**: telegram-bot
-- **评分**: 3.528 (较上次 3.719 略有下降)
-- **描述**: 通过 Telegram Bot API 构建和管理 Telegram 机器人。创建机器人、发送消息、处理 webhook、管理群组和频道
-- **价值**: ⭐⭐⭐⭐ 作为 Feishu 的备选消息平台
+### 6. RelayPlane/proxy ⭐⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 84
+- **描述**: AI 代理成本智能代理，通过智能模型路由降低成本约 80%，支持仪表板、策略引擎、11 个提供商
+- **价值**: ⭐⭐⭐⭐ 成本优化
 - **状态**: 未安装
-- **建议**: 适合国际化场景
-- **安装**: `clawhub install telegram-bot`
+- **建议**: 高用量场景下的成本优化方案
+- **安装**: `clawhub install RelayPlane/proxy`
 
-### 10. HeyGen Avatar Lite ⭐⭐⭐
-- **技能名**: heygen-avatar-lite
-- **评分**: 3.518 (较上次 3.727 略有下降)
-- **描述**: 使用 HeyGen API 创建AI数字人视频，免费入门指南
-- **价值**: ⭐⭐⭐ 补充现有 ai-avatar-generation 的静态头像能力
-- **状态**: 未安装（已有 ai-avatar-generation）
-- **建议**: 适合视频内容创作
-- **安装**: `clawhub install heygen-avatar-lite`
-
-### 11. Agent Scorecard ⭐⭐⭐
-- **技能名**: agent-scorecard
-- **评分**: 3.209 (较上次 3.261 略有下降)
-- **描述**: AI 代理输出的可配置质量评估。定义标准、运行评估、跟踪质量。无需 LLM-as-judge，基于模式
-- **价值**: ⭐⭐⭐ 代理质量监控和评估
+### 7. solcanine/openclaw-ai-polymarket-trading-bot ⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 30
+- **描述**: Polymarket AI 交易机器人，预测加密货币价格，自动执行交易
+- **价值**: ⭐⭐⭐ 金融交易自动化
 - **状态**: 未安装
-- **建议**: 适合生产环境代理质量保障
-- **安装**: `clawhub install agent-scorecard`
+- **建议**: 加密货币交易场景
+- **安装**: `clawhub install solcanine/openclaw-ai-polymarket-trading-bot`
+
+### 8. seekcontext/mindkeeper ⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 3
+- **描述**: AI 大脑的时光机 — 自动快照、差异对比和回滚代理上下文文件
+- **价值**: ⭐⭐⭐ 记忆版本管理
+- **状态**: 未安装
+- **建议**: 与现有记忆系统形成互补
+- **安装**: `clawhub install seekcontext/mindkeeper`
+
+### 9. ALT-F1-OpenClaw/openclaw-skill-atlassian-jira ⭐⭐⭐
+- **来源**: GitHub
+- **评分**: ⭐ 1
+- **描述**: Atlassian Jira Cloud 技能，支持 CRUD 问题、评论、附件、工作流转换和 JQL 搜索
+- **价值**: ⭐⭐⭐ 项目管理集成
+- **状态**: 未安装
+- **建议**: 适合使用 Jira 的团队
+- **安装**: `clawhub install ALT-F1-OpenClaw/openclaw-skill-atlassian-jira`
+
+### 10. draeden79/microsoft-365-graph-openclaw ⭐⭐⭐
+- **来源**: GitHub
+- **评分**: 新发布
+- **描述**: Microsoft Graph for OpenClaw，支持邮件/日历/云端硬盘/联系人自动化，基于 webhook 触发
+- **价值**: ⭐⭐⭐ Microsoft 365 集成
+- **状态**: 未安装
+- **建议**: 适合 Microsoft 生态用户
+- **安装**: `clawhub install draeden79/microsoft-365-graph-openclaw`
 
 ---
 
-## 🆕 最新发现技能（explore 扫描）
+## 🆕 最新发现技能（GitHub 扫描）
 
-### 12. Auto Skill Hunter ⭐⭐⭐⭐
-- **技能名**: auto-skill-hunter
-- **版本**: v1.0.3 | 更新: just now
-- **描述**: 自动发现并安装高价值技能，与本任务功能类似但自动化
-- **价值**: ⭐⭐⭐⭐ 自动化技能发现
-- **安装**: `clawhub install auto-skill-hunter`
+### 11. smouj/skill-genesis ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 🧬 OpenClaw Skill Genesis - 自主技能生成器
+- **价值**: ⭐⭐⭐ 自动化技能创建
+- **安装**: `clawhub install smouj/skill-genesis`
 
-### 13. Feishu Calendar ⭐⭐⭐⭐
-- **技能名**: feishu-calendar
-- **版本**: v1.0.0 | 更新: just now
-- **描述**: 管理飞书日历，列出、搜索、创建日程事件
-- **价值**: ⭐⭐⭐⭐ 飞书生态增强
-- **安装**: `clawhub install feishu-calendar`
+### 12. Chuenemulisa/openclaw-youtube-archiver ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: YouTube 播放列表存档为 markdown，含完整转录、AI 摘要、元数据、自动主题标签
+- **价值**: ⭐⭐⭐ 内容存档
+- **安装**: `clawhub install Chuenemulisa/openclaw-youtube-archiver`
 
-### 14. Feishu Attendance ⭐⭐⭐⭐
-- **技能名**: feishu-attendance
-- **版本**: v1.0.9 | 更新: just now
-- **描述**: 监控飞书考勤，追踪迟到、早退、加班、请假
-- **价值**: ⭐⭐⭐⭐ 飞书办公自动化
-- **安装**: `clawhub install feishu-attendance`
+### 13. komafon/trust-openclaw ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 欧盟 AI 法案合规，支持审计日志、PII 令牌化、同意门控、提示注入检测
+- **价值**: ⭐⭐⭐ 合规性
+- **安装**: `clawhub install komafon/trust-openclaw`
 
-### 15. Feishu Doc ⭐⭐⭐⭐
-- **技能名**: feishu-doc
-- **版本**: v1.2.7 | 更新: just now
-- **描述**: 从飞书知识库、文档、表格获取内容
-- **价值**: ⭐⭐⭐⭐ 飞书文档集成
-- **安装**: `clawhub install feishu-doc`
+### 14. ARE2200/orchard-kit ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 构建安全、对齐的自主 AI 代理，包含边界控制、信任验证、自治工具
+- **价值**: ⭐⭐⭐ 安全代理框架
+- **安装**: `clawhub install ARE2200/orchard-kit`
 
-### 16. Feishu Card ⭐⭐⭐⭐
-- **技能名**: feishu-card
-- **版本**: v1.4.11 | 更新: just now
-- **描述**: 发送富交互飞书卡片，支持 markdown、按钮、表单
-- **价值**: ⭐⭐⭐⭐ 飞书消息增强
-- **安装**: `clawhub install feishu-card`
+### 15. dark712/openclaw-security-guard ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 🛡 通过审计、监控和保护增强 OpenClaw 安全性的一体化工具
+- **价值**: ⭐⭐⭐ 安全监控
+- **安装**: `clawhub install dark712/openclaw-security-guard`
 
-### 17. AI Media ⭐⭐⭐⭐
-- **技能名**: ai-media
-- **版本**: v1.0.1 | 更新: just now
-- **描述**: 生成逼真图像、视频、数字人头像
-- **价值**: ⭐⭐⭐⭐ 多媒体生成
-- **安装**: `clawhub install ai-media`
+### 16. webleon/interactive-slides-openclaw-skill ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 创建交互式动画网页演示文稿，单 HTML 文件、GSAP 动画、幻灯片/滚动模式、PPT 导出
+- **价值**: ⭐⭐⭐ 演示文稿
+- **安装**: `clawhub install webleon/interactive-slides-openclaw-skill`
 
-### 18. ScholarGraph ⭐⭐⭐⭐
-- **技能名**: scholargraph
-- **版本**: v1.4.3 | 更新: just now
-- **描述**: 学术文献智能工具包，多维度分析
-- **价值**: ⭐⭐⭐⭐ 学术研究增强
-- **安装**: `clawhub install scholargraph`
+### 17. skbylife/openclaw-os-notion ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: AI 代理记忆、身份和任务管理的开源模式和协议，解决冷启动问题
+- **价值**: ⭐⭐⭐ 记忆系统
+- **安装**: `clawhub install skbylife/openclaw-os-notion`
 
-### 19. Memory Mesh Core ⭐⭐⭐⭐
-- **技能名**: memory-mesh-core
-- **版本**: v1.0.6 | 更新: just now
-- **描述**: 构建可重用、评分的记忆网格，带安全护栏
-- **价值**: ⭐⭐⭐⭐ 记忆系统增强
-- **安装**: `clawhub install memory-mesh-core`
+### 18. openstockdata/stock-data-skill ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: OpenClaw 股票数据分析技能
+- **价值**: ⭐⭐⭐ 金融数据
+- **安装**: `clawhub install openstockdata/stock-data-skill`
 
-### 20. Soul Framework ⭐⭐⭐⭐
-- **技能名**: soul-framework
-- **版本**: v1.0.0 | 更新: just now
-- **描述**: 使AI代理采用一致人格、价值观和沟通风格
-- **价值**: ⭐⭐⭐⭐ 人格框架
-- **安装**: `clawhub install soul-framework`
+### 19. suqi-tech/cloudphone ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: OpenClaw CloudPhone 插件，基于云手机 OpenAPI 提供设备管理和 UI 交互能力
+- **价值**: ⭐⭐⭐ 云手机自动化
+- **安装**: `clawhub install suqi-tech/cloudphone`
 
-### 21. Soul Pack ⭐⭐⭐
-- **技能名**: soul-pack
-- **版本**: v0.1.0 | 更新: just now
-- **描述**: 导出、导入、列出 OpenClaw 的 SOUL 包
-- **价值**: ⭐⭐⭐ 人格包管理
-- **安装**: `clawhub install soul-pack`
+### 20. novyxlabs/novyx-reflect ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 记忆自我管理与质量优化
+- **价值**: ⭐⭐⭐ 记忆优化
+- **安装**: `clawhub install novyxlabs/novyx-reflect`
 
-### 22. User Briefing ⭐⭐⭐⭐
-- **技能名**: user-briefing
-- **版本**: v1.0.11 | 更新: just now
-- **描述**: 提供个性化晨间简报，含当前任务和天气
-- **价值**: ⭐⭐⭐⭐ 与现有 ai-daily-briefing 形成互补
-- **安装**: `clawhub install user-briefing`
+### 21. novyxlabs/novyx-handoff ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 通过上下文空间实现多代理记忆共享
+- **价值**: ⭐⭐⭐ 多代理协作
+- **安装**: `clawhub install novyxlabs/novyx-handoff`
 
-### 23. Content Watcher ⭐⭐⭐
-- **技能名**: content-watcher
-- **版本**: v1.0.0 | 更新: just now
-- **描述**: 监控 RSS 订阅、博客和新闻源，AI摘要
-- **价值**: ⭐⭐⭐ 与现有 blogwatcher 形成互补
-- **安装**: `clawhub install content-watcher`
+### 22. williamxhero/openclaw-skill-capability-router ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: Token 节省能力路由器，通过廉价选择器路由请求，仅向昂贵代理展示最相关的技能
+- **价值**: ⭐⭐⭐ 成本优化
+- **安装**: `clawhub install williamxhero/openclaw-skill-capability-router`
 
-### 24. Vocabulary Builder ⭐⭐⭐
-- **技能名**: vocabulary-builder
-- **版本**: v1.1.2 | 更新: just now
-- **描述**: 从书籍、播客、视频构建和复习词汇
-- **价值**: ⭐⭐⭐ 语言学习
-- **安装**: `clawhub install vocabulary-builder`
+### 23. sonwr/openclaw-codex-pm-skills ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: 适用于 OpenClaw + Codex 风格代理的项目管理技能包
+- **价值**: ⭐⭐⭐ 项目管理
+- **安装**: `clawhub install sonwr/openclaw-codex-pm-skills`
 
-### 25. ClawTV ⭐⭐⭐
-- **技能名**: clawtv
-- **版本**: v1.0.2 | 更新: just now
-- **描述**: AI驱动的 Apple TV 遥控器，使用视觉自动化导航
-- **价值**: ⭐⭐⭐ 智能家居
-- **安装**: `clawhub install clawtv`
+### 24. Cluka-399/openclaw-skills-explorer ⭐⭐⭐
+- **来源**: GitHub
+- **描述**: OpenClaw Skills Explorer - 发现和浏览技能
+- **价值**: ⭐⭐⭐ 技能浏览工具
+- **安装**: `clawhub install Cluka-399/openclaw-skills-explorer`
 
-### 26. PPTX-2 ⭐⭐⭐
-- **技能名**: pptx-2
-- **版本**: v0.1.1 | 更新: just now
-- **描述**: 创建、编辑、分析 .pptx 演示文稿
-- **价值**: ⭐⭐⭐ PPT自动化
-- **安装**: `clawhub install pptx-2`
+### 25. qfc-network/qfc-openclaw-skill ⭐⭐
+- **来源**: GitHub
+- **描述**: QFC 区块链交互技能，支持钱包管理和内置安全策略
+- **价值**: ⭐⭐ 区块链
+- **安装**: `clawhub install qfc-network/qfc-openclaw-skill`
 
-### 27. TokPortal ⭐⭐⭐
-- **技能名**: tokportal
-- **版本**: v1.0.0 | 更新: just now
-- **描述**: 大规模自动化 TikTok 和 Instagram 账户管理
-- **价值**: ⭐⭐⭐ 社交媒体自动化
-- **安装**: `clawhub install tokportal`
+### 26. stellariums/openclaw-skill ⭐⭐
+- **来源**: GitHub
+- **描述**: 天文观测和星空摄影辅助技能
+- **价值**: ⭐⭐ 天文爱好者
+- **安装**: `clawhub install stellariums/openclaw-skill`
 
-### 28. Task System ⭐⭐⭐
-- **技能名**: task-system
-- **版本**: v1.0.1 | 更新: just now
-- **描述**: 任务管理，自动创建、SQLite追踪、优先级排序
-- **价值**: ⭐⭐⭐ 任务管理
-- **安装**: `clawhub install task-system`
+### 27. KimRasak/openclaw-skills ⭐⭐
+- **来源**: GitHub
+- **描述**: 自定义技能：alphaxiv、hf-papers
+- **价值**: ⭐⭐ 学术研究
+- **安装**: `clawhub install KimRasak/openclaw-skills`
 
-### 29. Docsync ⭐⭐⭐
-- **技能名**: docsync
-- **版本**: v1.0.1 | 更新: just now
-- **描述**: 从代码自动生成和同步文档
-- **价值**: ⭐⭐⭐ 文档自动化
-- **安装**: `clawhub install docsync`
+### 28. uninhibite-scholar/openclaw-skills ⭐⭐
+- **来源**: GitHub
+- **描述**: 5 个实用的开发者 OpenClaw 技能
+- **价值**: ⭐⭐ 开发者工具
+- **安装**: `clawhub install uninhibite-scholar/openclaw-skills`
 
-### 30. Wakapi Sync Skill ⭐⭐⭐
-- **技能名**: wakapi-sync-skill
-- **版本**: v0.2.1 | 更新: just now
-- **描述**: 每日 Wakapi (WakaTime兼容) 摘要 → 本地记忆
-- **价值**: ⭐⭐⭐ 开发者时间追踪
-- **安装**: `clawhub install wakapi-sync-skill`
+### 29. ericzikun/xhs_skills_openclaw ⭐⭐
+- **来源**: GitHub
+- **描述**: 小红书 OpenClaw 技能
+- **价值**: ⭐⭐ 社交媒体
+- **安装**: `clawhub install ericzikun/xhs_skills_openclaw`
+
+### 30. L-LesterYu/OpenClaw-hot-skills-zh ⭐⭐
+- **来源**: GitHub
+- **描述**: 将 clawhub.ai 平台的优质安全项目转化为中文版 Skills
+- **价值**: ⭐⭐ 中文本地化
+- **安装**: `clawhub install L-LesterYu/OpenClaw-hot-skills-zh`
 
 ---
 
@@ -293,9 +271,9 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 - **本地技能**: 55 个
 - **系统级技能**: 52 个
 - **ClawHub 锁定技能**: 12 个
-- **本次新发现 ClawHub 技能**: 30+ 个 (explore 扫描)
-- **高价值候选**: 11 个
-- **最新更新技能**: 30+ 个（explore 扫描）
+- **本次 GitHub 新发现技能**: 30+ 个
+- **高价值候选**: 10 个 (⭐100+)
+- **最新更新技能**: 50+ 个（GitHub 扫描）
 
 ---
 
@@ -303,64 +281,55 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 
 ### 🔥 高优先级（强烈推荐）
 
-1. **ai-meeting-notes** (3.727 ↑)
-   - AI 会议笔记自动生成，含行动项追踪
-   - 与现有 ai-daily-briefing 形成互补
-   - 无需设置，即用型
+1. **VoltAgent/awesome-openclaw-skills** (⭐ 33,620)
+   - 技能发现首选资源，5400+ 技能分类整理
+   - 一站式技能浏览入口
 
-2. **elite-longterm-memory** (3.744 ↑)
-   - 评分最高记忆技能
-   - 评估与现有记忆系统的差异
+2. **FreedomIntelligence/OpenClaw-Medical-Skills** (⭐ 721)
+   - 最大开源医疗 AI 技能库
+   - 医疗领域专业应用必备
 
-3. **agent-browser** (3.801 ↑)
-   - 已安装 0.2.0，建议升级
-   - 浏览器自动化首选
+3. **prompt-security/clawsec** (⭐ 686)
+   - 完整安全技能套件
+   - 与现有 arc-security-audit 互补
 
-4. **codex-orchestrator** (3.543)
-   - Codex 多代理编排协调
-   - 适合复杂编码任务
+4. **YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill** (⭐ 1,182)
+   - 10000+ Gemini 图像提示词库
+   - AI 图像生成工作流增强
 
-5. **video-subtitles** (3.490)
-   - 视频字幕自动生成
-   - 适合多媒体内容创作
+5. **swarmclawai/swarmclaw** (⭐ 93)
+   - 自托管多代理编排平台
+   - 适合复杂代理系统管理
 
 ### ⭐ 中优先级
 
-6. **filesystem-mcp** (3.505)
-   - MCP 协议标准化的文件系统访问
-   - 与现有 mcp-lark 形成 MCP 协议矩阵
+6. **RelayPlane/proxy** (⭐ 84)
+   - 成本智能代理，降低 80% 成本
+   - 高用量场景必备
 
-7. **fast-browser-use** (3.623 ↑)
-   - 高性能浏览器自动化
-   - 评分大幅提升
+7. **seekcontext/mindkeeper** (⭐ 3)
+   - AI 记忆时光机，快照/差异/回滚
+   - 记忆版本管理
 
-8. **xiaohongshu-mcp** (3.616 ↑)
-   - 小红书 MCP 自动化运营
-   - 评分大幅提升
+8. **draeden79/microsoft-365-graph-openclaw**
+   - Microsoft 365 集成
+   - 适合 Microsoft 生态用户
 
-9. **telegram-bot** (3.528)
-   - Telegram 机器人构建
-   - 作为 Feishu 备选消息平台
+9. **ALT-F1-OpenClaw/openclaw-skill-atlassian-jira**
+   - Jira Cloud 集成
+   - 项目管理自动化
 
-10. **feishu-calendar** (v1.0.0)
-    - 飞书日历管理
-    - 飞书生态增强
-
-11. **feishu-attendance** (v1.0.9)
-    - 飞书考勤监控
-    - 办公自动化
+10. **smouj/skill-genesis**
+    - 自主技能生成器
+    - 自动化技能创建
 
 ### 🆕 新兴技能关注
 
-12. **auto-skill-hunter** - 自动技能发现
-13. **feishu-doc** - 飞书文档集成
-14. **feishu-card** - 飞书富交互卡片
-15. **ai-media** - 多媒体生成
-16. **scholargraph** - 学术文献智能
-17. **memory-mesh-core** - 记忆网格核心
-18. **soul-framework** - 人格框架
-19. **user-briefing** - 用户简报
-20. **content-watcher** - 内容监控
+11. **komafon/trust-openclaw** - 欧盟 AI 法案合规
+12. **webleon/interactive-slides-openclaw-skill** - 交互式演示文稿
+13. **skbylife/openclaw-os-notion** - 开源记忆协议
+14. **suqi-tech/cloudphone** - 云手机自动化
+15. **novyxlabs/novyx-handoff** - 多代理记忆共享
 
 ---
 
@@ -368,60 +337,67 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 
 **🔥 本次扫描强烈推荐关注**:
 
-1. **ai-meeting-notes** - AI 会议笔记生成 ⭐⭐⭐⭐⭐ (评分 3.727 ↑)
-2. **elite-longterm-memory** - 高级长期记忆 ⭐⭐⭐⭐⭐ (评分 3.744 ↑)
-3. **agent-browser** - 浏览器自动化 ⭐⭐⭐⭐⭐ (评分 3.801 ↑ 建议升级)
-4. **codex-orchestrator** - Codex 多代理编排 ⭐⭐⭐⭐⭐ (评分 3.543)
-5. **video-subtitles** - 视频字幕生成 ⭐⭐⭐⭐⭐ (评分 3.490)
-6. **fast-browser-use** - 高性能浏览器自动化 ⭐⭐⭐⭐ (评分 3.623 ↑)
-7. **xiaohongshu-mcp** - 小红书 MCP 自动化 ⭐⭐⭐⭐ (评分 3.616 ↑)
-8. **telegram-bot** - Telegram 机器人 ⭐⭐⭐⭐ (评分 3.528)
-9. **heygen-avatar-lite** - HeyGen AI 视频 ⭐⭐⭐ (评分 3.518)
-10. **agent-scorecard** - 代理质量评估 ⭐⭐⭐ (评分 3.209)
-11. **feishu-calendar** - 飞书日历 ⭐⭐⭐⭐ (v1.0.0)
-12. **feishu-attendance** - 飞书考勤 ⭐⭐⭐⭐ (v1.0.9)
+1. **VoltAgent/awesome-openclaw-skills** - 5400+ 技能精选集合 ⭐⭐⭐⭐⭐ (⭐ 33,620)
+2. **FreedomIntelligence/OpenClaw-Medical-Skills** - 最大医疗 AI 技能库 ⭐⭐⭐⭐⭐ (⭐ 721)
+3. **prompt-security/clawsec** - 完整安全技能套件 ⭐⭐⭐⭐⭐ (⭐ 686)
+4. **YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill** - 图像提示词库 ⭐⭐⭐⭐ (⭐ 1,182)
+5. **swarmclawai/swarmclaw** - 多代理编排平台 ⭐⭐⭐⭐ (⭐ 93)
+6. **RelayPlane/proxy** - AI 成本优化代理 ⭐⭐⭐⭐ (⭐ 84)
+7. **solcanine/openclaw-ai-polymarket-trading-bot** - 加密交易机器人 ⭐⭐⭐ (⭐ 30)
+8. **seekcontext/mindkeeper** - 记忆版本管理 ⭐⭐⭐ (⭐ 3)
+9. **draeden79/microsoft-365-graph-openclaw** - Microsoft 365 集成 ⭐⭐⭐
+10. **ALT-F1-OpenClaw/openclaw-skill-atlassian-jira** - Jira 项目管理 ⭐⭐⭐
 
 **🆕 最新热门技能**:
-- auto-skill-hunter (自动技能发现)
-- feishu-doc (飞书文档集成)
-- feishu-card (飞书富交互卡片)
-- ai-media (多媒体生成)
-- scholargraph (学术文献智能)
-- memory-mesh-core (记忆网格核心)
-- soul-framework (人格框架)
-- soul-pack (人格包管理)
-- user-briefing (用户简报)
-- content-watcher (内容监控)
-- vocabulary-builder (词汇构建)
-- clawtv (Apple TV 控制)
-- pptx-2 (PPT自动化)
-- tokportal (TikTok/Instagram自动化)
-- task-system (任务系统)
-- docsync (文档同步)
-- wakapi-sync-skill (开发者时间追踪)
+- smouj/skill-genesis (自主技能生成器)
+- Chuenemulisa/openclaw-youtube-archiver (YouTube 存档)
+- komafon/trust-openclaw (欧盟 AI 合规)
+- ARE2200/orchard-kit (安全代理框架)
+- dark712/openclaw-security-guard (安全监控)
+- webleon/interactive-slides-openclaw-skill (交互演示)
+- skbylife/openclaw-os-notion (开源记忆协议)
+- openstockdata/stock-data-skill (股票数据)
+- suqi-tech/cloudphone (云手机)
+- novyxlabs/novyx-reflect (记忆优化)
+- novyxlabs/novyx-handoff (多代理协作)
+- williamxhero/openclaw-skill-capability-router (Token 节省)
+- sonwr/openclaw-codex-pm-skills (项目管理)
+- Cluka-399/openclaw-skills-explorer (技能浏览器)
 
 ---
 
-## 📈 评分变化追踪
+## 📈 生态系统趋势
 
-| 技能 | 上次评分 | 当前评分 | 变化 |
-|------|----------|----------|------|
-| ai-meeting-notes | 3.706 | 3.727 | ↑ +0.021 |
-| elite-longterm-memory | 3.222 | 3.744 | ↑ +0.522 |
-| agent-browser | 3.393 | 3.801 | ↑ +0.408 |
-| codex-orchestrator | 3.721 | 3.543 | ↓ -0.178 |
-| video-subtitles | 3.705 | 3.490 | ↓ -0.215 |
-| filesystem-mcp | 3.694 | 3.505 | ↓ -0.189 |
-| fast-browser-use | 3.248 | 3.623 | ↑ +0.375 |
-| xiaohongshu-mcp | 2.633 | 3.616 | ↑ +0.983 |
-| telegram-bot | 3.719 | 3.528 | ↓ -0.191 |
-| heygen-avatar-lite | 3.727 | 3.518 | ↓ -0.209 |
-| agent-scorecard | 3.261 | 3.209 | ↓ -0.052 |
+| 趋势 | 观察 |
+|------|------|
+| **医疗领域** | FreedomIntelligence 推出最大医疗技能库 |
+| **安全合规** | 大量安全/合规技能涌现 (clawsec, trust-openclaw, orchard-kit) |
+| **成本优化** | RelayPlane/proxy 专注 Token 成本优化 |
+| **多代理编排** | swarmclaw、novyx-handoff 关注代理协作 |
+| **技能发现** | VoltAgent 整理 5400+ 技能，awesome 列表爆发 |
+| **Microsoft 生态** | draeden79 推出 Microsoft 365 Graph 集成 |
+| **项目管理** | Jira、OpenProject 技能增加 |
+| **金融交易** | Polymarket、Hyperliquid 交易机器人 |
+| **中文本地化** | L-LesterYu 推动中文技能本地化 |
 
-**趋势**: 
-- **大幅上升**: xiaohongshu-mcp (+0.983), elite-longterm-memory (+0.522), agent-browser (+0.408), fast-browser-use (+0.375)
-- **略有下降**: 部分技能评分小幅回落，但仍保持高价值
-- **ClawHub 生态系统持续活跃**，飞书生态技能大量涌现
+**趋势总结**: OpenClaw 生态系统持续高速增长，安全合规、成本优化、多代理协作成为新热点。医疗、金融等专业领域技能库开始形成。
+
+---
+
+## 📚 技能类别分布
+
+| 类别 | 代表技能 |
+|------|----------|
+| 🔒 安全合规 | clawsec, trust-openclaw, orchard-kit, security-guard |
+| 🏥 医疗健康 | OpenClaw-Medical-Skills |
+| 💰 金融交易 | Polymarket/Hyperliquid trading bots, stock-data-skill |
+| 🤖 多代理 | swarmclaw, novyx-handoff, agent-weave |
+| 💸 成本优化 | RelayPlane/proxy, capability-router |
+| 🎨 内容创作 | nano-banana-pro-prompts, youtube-archiver, interactive-slides |
+| 🧠 记忆管理 | mindkeeper, openclaw-os-notion, novyx-reflect |
+| 📊 项目管理 | Jira, OpenProject, codex-pm-skills |
+| 🌐 平台集成 | Microsoft 365, cloudphone, Telegram, Feishu |
+| 🔧 开发工具 | skill-genesis, skills-explorer, awesome-lists |
 
 ---
 
@@ -430,11 +406,27 @@ skill-vetter (1.0.0), youtube-transcript (1.0.1)
 ## 扫描记录
 
 - 2026-03-09 20:01: 本地 54 技能，系统 52 技能，ClawHub 扫描完成，发现 8 个高价值候选
-- 2026-03-09 22:01: 本地 54 技能，系统 52 技能，评分更新: ai-notes-of-video (3.722), filesystem-mcp (3.692), fast-browser-use (3.623)
-- 2026-03-10 00:01: 本地 54 技能，系统 52 技能，评分稳定，无重大变化
-- 2026-03-10 02:01: 本地 54 技能，系统 52 技能，新发现 8 个技能，包括 codex-cli-task、memoryai、agent-scorecard、asr-skill 等
-- 2026-03-10 04:01: 本地 54 技能，系统 52 技能，评分更新: filesystem-mcp (3.693 ↑), ai-meeting-notes (3.573 ↑), codex-orchestrator (3.542 ↑), video-subtitles (3.489 ↑), fast-browser-use 评分下降至 3.248
-- 2026-03-10 06:01: 本地 54 技能，系统 52 技能，评分更新: fast-browser-use (3.623 ↑ 回升), filesystem-mcp (3.509), memoryai (3.221), 无新技能发现
-- 2026-03-10 08:01: 本地 54 技能，系统 52 技能，ClawHub 12 锁定技能，explore 扫描发现 25 个最新更新技能
-- 2026-03-10 10:01: 本地 54 技能，系统 52 技能，explore 扫描发现 34 个最新技能，高价值技能评分全面提升，新增 catbus、ai-company、agent-collaboration-network 等新兴技能
-- 2026-03-10 12:05: 本地 55 技能，系统 52 技能，explore 扫描发现 30+ 个最新技能，xiaohongshu-mcp 评分暴涨 (+0.983)，agent-browser 评分大幅提升 (+0.408)，飞书生态技能大量涌现
+- 2026-03-09 22:01: 本地 54 技能，系统 52 技能，评分更新
+- 2026-03-10 00:01: 本地 54 技能，系统 52 技能，评分稳定
+- 2026-03-10 02:01: 本地 54 技能，系统 52 技能，新发现 8 个技能
+- 2026-03-10 04:01: 本地 54 技能，系统 52 技能，评分更新
+- 2026-03-10 06:01: 本地 54 技能，系统 52 技能，评分更新
+- 2026-03-10 08:01: 本地 54 技能，系统 52 技能，explore 扫描
+- 2026-03-10 10:01: 本地 54 技能，系统 52 技能，explore 扫描发现 34 个技能
+- 2026-03-10 12:05: 本地 55 技能，系统 52 技能，explore 扫描，飞书生态涌现
+- 2026-03-10 14:01: 本地 55 技能，系统 52 技能，GitHub 扫描发现 50+ 新技能，VoltAgent awesome 列表 33k stars，医疗技能库 721 stars，安全合规技能爆发
+
+## 扫描记录 2026-03-10 15:31
+
+- 本地技能: 55 个
+- 系统技能: 52 个
+- ClawHub: 扫描失败或暂无更新
+
+### GitHub OpenClaw 官方技能
+- GitHub: 解析失败
+
+### 💡 推荐学习
+基于当前配置，建议关注以下技能类型:
+- **定时任务增强**: 更智能的任务调度
+- **数据可视化**: 图表生成和报告美化
+- **多语言支持**: 更多语言的翻译和本地化
