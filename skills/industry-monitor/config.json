@@ -1,6 +1,6 @@
 {
   "name": "语言服务行业监控",
-  "version": "3.0",
+  "version": "3.1",
   "schedule": "0 9 * * 2,4,6",
   "timezone": "Asia/Shanghai",
   "output": {
@@ -25,15 +25,15 @@
           "name": "Multilingual",
           "url": "https://multilingual.com",
           "type": "primary",
-          "enabled": false,
-          "note": "访问受限(Cloudflare)"
+          "enabled": true,
+          "note": "尝试访问(Cloudflare)"
         },
         {
           "name": "Nimdzi",
           "url": "https://nimdzi.com",
           "type": "primary",
-          "enabled": false,
-          "note": "访问受限(Cloudflare)"
+          "enabled": true,
+          "note": "尝试访问(Cloudflare)"
         }
       ]
     },
@@ -59,56 +59,56 @@
           "name": "Lionbridge",
           "url": "https://www.lionbridge.com/news",
           "type": "primary",
-          "enabled": false,
-          "note": "Nimdzi 100 #3, 404"
+          "enabled": true,
+          "note": "Nimdzi 100 #3"
         },
         {
           "name": "LanguageLine",
           "url": "https://www.languageline.com/news",
           "type": "primary",
-          "enabled": false,
+          "enabled": true,
           "note": "Nimdzi 100 #4"
         },
         {
           "name": "Welocalize",
           "url": "https://www.welocalize.com/news",
           "type": "primary",
-          "enabled": false,
-          "note": "Nimdzi 100 #5, 404"
+          "enabled": true,
+          "note": "Nimdzi 100 #5"
         },
         {
           "name": "Argos Multilingual",
           "url": "https://www.argosmultilingual.com/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "Nimdzi 100 #6"
         },
         {
-          "name": " translate plus",
+          "name": "translate plus",
           "url": "https://www.translateplus.com/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "Nimdzi 100 #7"
         },
         {
           "name": "Summa Linguae",
           "url": "https://summalinguae.com/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "Nimdzi 100 #8"
         },
         {
           "name": "Hogarth",
           "url": "https://www.hogarthww.com/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "Nimdzi 100 #9"
         },
         {
           "name": "Acolad",
           "url": "https://www.acolad.com/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "Nimdzi 100 #10"
         }
       ]
@@ -117,16 +117,26 @@
       "name": "Tier 2 LSPs (Nimdzi 100 #11-30)",
       "description": "全球第11-30大语言服务提供商",
       "sources": [
-        {"name": "Keywords Studios", "url": "https://www.keywordsstudios.com/news", "type": "secondary", "enabled": false},
-        {"name": "Pactera EDGE", "url": "https://www.pacteraedge.com/news", "type": "secondary", "enabled": false},
-        {"name": "Amplexor", "url": "https://www.amplexor.com/news", "type": "secondary", "enabled": false},
-        {"name": "Semantix", "url": "https://www.semantix.com/news", "type": "secondary", "enabled": false},
+        {"name": "Keywords Studios", "url": "https://www.keywordsstudios.com/news", "type": "secondary", "enabled": true},
+        {"name": "Pactera EDGE", "url": "https://www.pacteraedge.com/news", "type": "secondary", "enabled": true},
+        {"name": "Amplexor", "url": "https://www.amplexor.com/news", "type": "secondary", "enabled": true},
+        {"name": "Semantix", "url": "https://www.semantix.com/news", "type": "secondary", "enabled": true},
         {"name": "Straker", "url": "https://strakertranslations.com/news", "type": "secondary", "enabled": true, "note": "CEO变更跟踪"},
-        {"name": "Alconost", "url": "https://alconost.com/news", "type": "secondary", "enabled": false},
-        {"name": "Ubiqus", "url": "https://www.ubiqus.com/news", "type": "secondary", "enabled": false},
-        {"name": "Gengo", "url": "https://gengo.com/news", "type": "secondary", "enabled": false},
-        {"name": "Cloudwords", "url": "https://www.cloudwords.com/news", "type": "secondary", "enabled": false},
-        {"name": "TextMaster", "url": "https://www.textmaster.com/news", "type": "secondary", "enabled": false}
+        {"name": "Alconost", "url": "https://alconost.com/news", "type": "secondary", "enabled": true},
+        {"name": "Ubiqus", "url": "https://www.ubiqus.com/news", "type": "secondary", "enabled": true},
+        {"name": "Gengo", "url": "https://gengo.com/news", "type": "secondary", "enabled": true},
+        {"name": "Cloudwords", "url": "https://www.cloudwords.com/news", "type": "secondary", "enabled": true},
+        {"name": "TextMaster", "url": "https://www.textmaster.com/news", "type": "secondary", "enabled": true},
+        {"name": "Vistatec", "url": "https://www.vistatec.com/news", "type": "secondary", "enabled": true},
+        {"name": "Morningside", "url": "https://www.morningside.com/news", "type": "secondary", "enabled": true},
+        {"name": "Transline", "url": "https://www.transline.de/news", "type": "secondary", "enabled": true},
+        {"name": "Terra", "url": "https://www.terratranslations.com/news", "type": "secondary", "enabled": true},
+        {"name": "Bureau Works", "url": "https://www.bureauworks.com/news", "type": "secondary", "enabled": true},
+        {"name": "BLEND", "url": "https://www.getblend.com/news", "type": "secondary", "enabled": true},
+        {"name": "Acclaro", "url": "https://www.acclaro.com/news", "type": "secondary", "enabled": true},
+        {"name": "Day Translations", "url": "https://www.daytranslations.com/news", "type": "secondary", "enabled": true},
+        {"name": "JR Language", "url": "https://www.jrlanguage.com/news", "type": "secondary", "enabled": true},
+        {"name": "Interpreters Unlimited", "url": "https://www.interpretersunlimited.com/news", "type": "secondary", "enabled": true}
       ]
     },
     "technology_vendors": {
@@ -144,21 +154,21 @@
           "name": "Smartling",
           "url": "https://www.smartling.com/blog",
           "type": "primary",
-          "enabled": false,
-          "note": "TMS供应商，404"
+          "enabled": true,
+          "note": "TMS供应商"
         },
         {
           "name": "Phrase",
           "url": "https://phrase.com/news",
           "type": "primary",
-          "enabled": false,
-          "note": "TMS供应商，403"
+          "enabled": true,
+          "note": "TMS供应商"
         },
         {
           "name": "XTM",
           "url": "https://xtm.ai/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "TMS供应商"
         },
         {
@@ -172,21 +182,21 @@
           "name": "Lokalise",
           "url": "https://lokalise.com/blog",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "本地化平台"
         },
         {
           "name": "Crowdin",
           "url": "https://crowdin.com/blog",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "本地化平台"
         },
         {
           "name": "DeepL",
           "url": "https://www.deepl.com/news",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "MT供应商"
         },
         {
@@ -213,14 +223,14 @@
           "name": "Microsoft Translator",
           "url": "https://www.microsoft.com/translator/blog",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "MT技术博客"
         },
         {
           "name": "OpenAI Blog",
           "url": "https://openai.com/blog",
           "type": "secondary",
-          "enabled": false,
+          "enabled": true,
           "note": "AI/LLM研究"
         }
       ]
@@ -229,7 +239,9 @@
   "format": {
     "sections": [
       "重点核心动态",
-      "企业动态",
+      "Tier 1 LSPs 动态",
+      "Tier 2 LSPs 动态",
+      "技术供应商动态",
       "行业趋势观察",
       "监控覆盖说明",
       "下周关注"
@@ -239,7 +251,8 @@
       "按日期分章节 (## YYYY-MM-DD)",
       "重点动态用【重点】标记",
       "来源URL放在每个条目开头",
-      "区分Tier 1和Tier 2 LSP动态"
+      "区分Tier 1和Tier 2 LSP动态",
+      "标注公司类型[Tier 1/2 LSP | 技术供应商 | 行业媒体]"
     ]
   },
   "notification": {

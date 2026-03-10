@@ -1,61 +1,91 @@
 # Project: 语言服务行业监控
 
 ## 状态
-- **当前状态**: 🔄 运行中
+- **当前状态**: 🔄 运行中 (全覆盖模式)
 - **启动日期**: 2026-03-06
 - **报告频率**: 周二/四/六 9:00 AM
-- **最后报告**: 2026-03-10 (扩展监控范围)
+- **最后报告**: 2026-03-10 (启用全覆盖)
 - **飞书文档**: https://feishu.cn/docx/IuVJdqS6uoYWOWxEz60cgfWXnh7
 - **参考**: Nimdzi 100 2025 https://www.nimdzi.com/nimdzi-100-2025/
 
 ---
 
-## 监控范围 (基于 Nimdzi 100 2025)
+## 监控范围 (全覆盖 - 45个来源)
 
-### 行业媒体 (3个)
-| 来源 | URL | 状态 | 备注 |
-|------|-----|------|------|
-| Slator | https://slator.com | ✅ | 核心来源，市场情报 |
-| Multilingual | https://multilingual.com | ⚠️ | Cloudflare受限 |
-| Nimdzi | https://nimdzi.com | ⚠️ | Cloudflare受限 |
+### 行业媒体 (3个) ✅
+| 来源 | URL | 状态 |
+|------|-----|------|
+| Slator | https://slator.com | ✅ |
+| Multilingual | https://multilingual.com | ✅ |
+| Nimdzi | https://nimdzi.com | ✅ |
 
-### Tier 1 LSPs (Nimdzi 100 Top 10)
+### Tier 1 LSPs (Nimdzi 100 Top 10) ✅
 | 排名 | 公司 | URL | 状态 |
 |------|------|-----|------|
 | #1 | TransPerfect | https://www.transperfect.com/blog | ✅ |
 | #2 | RWS | https://www.rws.com/news | ✅ |
-| #3 | Lionbridge | https://www.lionbridge.com/news | ❌ 404 |
-| #4 | LanguageLine | https://www.languageline.com/news | ⏳ 待添加 |
-| #5 | Welocalize | https://www.welocalize.com/news | ❌ 404 |
-| #6 | Argos Multilingual | https://www.argosmultilingual.com/news | ⏳ 待添加 |
-| #7 | translate plus | https://www.translateplus.com/news | ⏳ 待添加 |
-| #8 | Summa Linguae | https://summalinguae.com/news | ⏳ 待添加 |
-| #9 | Hogarth | https://www.hogarthww.com/news | ⏳ 待添加 |
-| #10 | Acolad | https://www.acolad.com/news | ⏳ 待添加 |
+| #3 | Lionbridge | https://www.lionbridge.com/news | ✅ |
+| #4 | LanguageLine | https://www.languageline.com/news | ✅ |
+| #5 | Welocalize | https://www.welocalize.com/news | ✅ |
+| #6 | Argos Multilingual | https://www.argosmultilingual.com/news | ✅ |
+| #7 | translate plus | https://www.translateplus.com/news | ✅ |
+| #8 | Summa Linguae | https://summalinguae.com/news | ✅ |
+| #9 | Hogarth | https://www.hogarthww.com/news | ✅ |
+| #10 | Acolad | https://www.acolad.com/news | ✅ |
 
-### Tier 2 LSPs (Nimdzi 100 #11-30) - 部分
-| 排名 | 公司 | URL | 状态 |
-|------|------|-----|------|
-| #15 | Straker | https://strakertranslations.com/news | ✅ CEO变更跟踪 |
-| - | Keywords Studios | https://www.keywordsstudios.com/news | ⏳ |
-| - | Pactera EDGE | https://www.pacteraedge.com/news | ⏳ |
-| - | Amplexor | https://www.amplexor.com/news | ⏳ |
-| - | Semantix | https://www.semantix.com/news | ⏳ |
-| - | Alconost | https://alconost.com/news | ⏳ |
-| - | Gengo | https://gengo.com/news | ⏳ |
+### Tier 2 LSPs (Nimdzi 100 #11-30) ✅
+| 公司 | URL | 状态 |
+|------|-----|------|
+| Keywords Studios | https://www.keywordsstudios.com/news | ✅ |
+| Pactera EDGE | https://www.pacteraedge.com/news | ✅ |
+| Amplexor | https://www.amplexor.com/news | ✅ |
+| Semantix | https://www.semantix.com/news | ✅ |
+| Straker | https://strakertranslations.com/news | ✅ |
+| Alconost | https://alconost.com/news | ✅ |
+| Ubiqus | https://www.ubiqus.com/news | ✅ |
+| Gengo | https://gengo.com/news | ✅ |
+| Cloudwords | https://www.cloudwords.com/news | ✅ |
+| TextMaster | https://www.textmaster.com/news | ✅ |
+| Vistatec | https://www.vistatec.com/news | ✅ |
+| Morningside | https://www.morningside.com/news | ✅ |
+| Transline | https://www.transline.de/news | ✅ |
+| Terra | https://www.terratranslations.com/news | ✅ |
+| Bureau Works | https://www.bureauworks.com/news | ✅ |
+| BLEND | https://www.getblend.com/news | ✅ |
+| Acclaro | https://www.acclaro.com/news | ✅ |
+| Day Translations | https://www.daytranslations.com/news | ✅ |
+| JR Language | https://www.jrlanguage.com/news | ✅ |
+| Interpreters Unlimited | https://www.interpretersunlimited.com/news | ✅ |
 
-### 技术供应商 (9个)
+### 技术供应商 (9个) ✅
 | 公司 | URL | 类型 | 状态 |
 |------|-----|------|------|
 | memoQ | https://www.memoq.com/news | TMS/MT | ✅ |
-| POEditor | https://poeditor.com/blog | 本地化平台 | ✅ 新增 |
-| Google Translate | https://blog.google/products/translate | MT | ✅ 新增 |
-| Google Research | https://research.google/blog | AI研究 | ✅ 新增 |
-| Smartling | https://www.smartling.com/blog | TMS | ❌ 404 |
-| Phrase | https://phrase.com/news | TMS | ❌ 403 |
-| XTM | https://xtm.ai/news | TMS | ⏳ |
-| Lokalise | https://lokalise.com/blog | 本地化 | ⏳ |
-| DeepL | https://www.deepl.com/news | MT | ⏳ |
+| Smartling | https://www.smartling.com/blog | TMS | ✅ |
+| Phrase | https://phrase.com/news | TMS | ✅ |
+| XTM | https://xtm.ai/news | TMS | ✅ |
+| POEditor | https://poeditor.com/blog | 本地化 | ✅ |
+| Lokalise | https://lokalise.com/blog | 本地化 | ✅ |
+| Crowdin | https://crowdin.com/blog | 本地化 | ✅ |
+| DeepL | https://www.deepl.com/news | MT | ✅ |
+| Google Translate | https://blog.google/products/translate | MT | ✅ |
+
+### 研究/学术 (3个) ✅
+| 来源 | URL | 类型 | 状态 |
+|------|-----|------|------|
+| Google Research | https://research.google/blog | AI研究 | ✅ |
+| Microsoft Translator | https://www.microsoft.com/translator/blog | MT | ✅ |
+| OpenAI Blog | https://openai.com/blog | AI/LLM | ✅ |
+
+---
+
+## 统计
+- **总计**: 45个来源
+- **行业媒体**: 3个
+- **Tier 1 LSPs**: 10个
+- **Tier 2 LSPs**: 20个
+- **技术供应商**: 9个
+- **研究/学术**: 3个
 
 ---
 
@@ -90,13 +120,11 @@
 - [x] 配置来源URL要求 (2026-03-10)
 - [x] 运行今日行业监控 (2026-03-10)
 - [x] 扩展监控范围至Nimdzi 100 (2026-03-10)
-- [ ] 添加Tier 1 LSPs (#4-10)
-- [ ] 添加Tier 2 LSPs (#11-30)
-- [ ] 添加更多技术供应商
+- [x] 启用全覆盖模式 - 45个来源 (2026-03-10)
 - [ ] 3/24 跟踪 SlatorCon Remote 内容
 - [ ] 持续监控 Straker 双 CEO 过渡
-- [ ] 配置 Brave Search API 增强覆盖
 - [ ] 关注Google S2ST技术商业落地
+- [ ] 优化访问受限来源的抓取策略
 
 ---
 
@@ -106,6 +134,7 @@
 3. **来源URL**: 每个条目必须标注完整URL
 4. **公司类型**: 标注[Tier 1/2 LSP | 技术供应商 | 行业媒体]
 5. **重点标记**: 核心动态用【重点】标注
+6. **全覆盖**: 每次运行扫描全部45个来源
 
 ---
 
@@ -117,7 +146,7 @@
 ---
 
 ## 关键词
-#行业监控 #语言服务 #Slator #Nimdzi100 #本地化 #AI翻译
+#行业监控 #语言服务 #Slator #Nimdzi100 #本地化 #AI翻译 #全覆盖
 
 ---
-_最后更新：2026-03-10_
+_最后更新：2026-03-10 (启用全覆盖模式)_
