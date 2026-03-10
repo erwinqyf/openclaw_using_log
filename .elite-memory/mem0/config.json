@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "provider": "openai",
+  "model": "text-embedding-3-small",
+  "auto_extract": true,
+  "categories": ["preference", "decision", "fact", "procedure"],
+  "min_confidence": 0.7,
+  "deduplication": true
+}

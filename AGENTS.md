@@ -34,12 +34,27 @@ Don't ask permission. Just do it.
 
 You wake up fresh each session. These files are your continuity:
 
-| 层级 | 文件 | 用途 |
-|------|------|------|
-| 索引层 | `MEMORY.md` | 核心信息和记忆索引，保持精简 |
-| 项目层 | `memory/projects.md` | 各项目当前状态与待办 |
-| 教训层 | `memory/lessons.md` | 踩过的坑，按严重程度分级 |
-| 日志层 | `memory/YYYY-MM-DD.md` | 每日记录 |
+### Elite Longterm Memory 6层架构
+
+| 层级 | 名称 | 位置 | 用途 |
+|------|------|------|------|
+| 1 | **HOT RAM** | `SESSION-STATE.md` | 跨 session 热内存 (WAL协议) |
+| 2 | **WARM STORE** | `.elite-memory/vectors/` | LanceDB 语义搜索 |
+| 3 | **COLD STORE** | `.elite-memory/git-notes/` | Git-Notes 永久决策 |
+| 4 | **CURATED** | `memory/` | 人工可读档案 |
+| 5 | **CLOUD** | SuperMemory (可选) | 跨设备同步 |
+| 6 | **AUTO** | `.elite-memory/mem0/` | Mem0 自动提取 |
+
+### CURATED 层文件夹结构
+```
+memory/
+├── daily/           # 每日日志 (YYYY-MM-DD.md)
+├── projects/        # 项目状态 (project-name/status.md)
+├── people/          # 人员档案 (user-profile.md)
+├── decisions/       # 决策记录 (YYYY-MM.md)
+├── lessons/         # 经验教训 (YYYY-MM-DD.md)
+└── topics/          # 主题文件 (topic-name.md)
+```
 
 ### 写入规则
 

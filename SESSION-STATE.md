@@ -6,14 +6,22 @@
 ---
 
 ## Current Task
-配置完成，测试 Elite Longterm Memory 系统
+Elite Longterm Memory 文件夹结构优化完成
 
 ## Key Context
 - **User**: 丰 (Asia/Shanghai)
 - **Agent**: Claw 🪞 (硅基孪生体)
-- **Goal**: 解决 session 隔离问题，实现跨 session 记忆
-- **GitHub**: https://github.com/erwinqyf/openclaw_using_log
-- **Memory System**: Elite Longterm Memory v3 (6层架构)
+- **Memory System**: Elite Longterm Memory v3 (6层架构已部署)
+
+## Elite Longterm Memory 架构
+```
+HOT RAM      → SESSION-STATE.md
+WARM STORE   → .elite-memory/vectors/ (LanceDB)
+COLD STORE   → .elite-memory/git-notes/ (Git-Notes)
+CURATED      → memory/{daily,projects,people,decisions,lessons,topics}
+CLOUD        → (可选) SuperMemory
+AUTO-EXTRACTION → .elite-memory/mem0/
+```
 
 ## User Preferences
 - 联网搜索优先使用 searxng skill
